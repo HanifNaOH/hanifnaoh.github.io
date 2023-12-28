@@ -1,25 +1,26 @@
 languageCode = "en"
 languageName = "English"
-weight = 1
-title = "Blowfish"
+contentDir = "content/en"
+weight = 2
+title = "Hanif012"
 
 [params]
   displayName = "EN"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  # logo = "img/logo.png"
-  # secondaryLogo = "img/secondary-logo.png"
+#   logo = "img/logo.jpg"
+  # secondaryLogo = "img/portrait.png"
   # description = "My awesome website"
-  # copyright = "Copy, _right?_ :thinking_face:"
+  # copyright = "Copyright © { year } Hanif012"
 
-# [author]
-#   name = "Your name here"
-#   image = "img/blowfish_logo.png"
-#   headline = "I'm only human"
-#   bio = "A little bit about you"
-#   links = [
-#     { email = "mailto:hello@your_domain.com" },
+[author]
+  name = "Fathy Hanif"
+  image = "img/blowfish_logo.png"
+  headline = "Game Developer"
+  bio = "A ordinary human being"
+  links = [
+    { email = "business.fathi.hanif@gmail.com" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
@@ -31,15 +32,15 @@ title = "Blowfish"
 #     { facebook = "https://facebook.com/username" },
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
-#     { github = "https://github.com/username" },
+    { github = "https://github.com/hanif012" },
 #     { gitlab = "https://gitlab.com/username" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
-#     { instagram = "https://instagram.com/username" },
+    { instagram = "https://instagram.com/hanif_yes" },
 #     { keybase = "https://keybase.io/username" },
 #     { kickstarter = "https://www.kickstarter.com/profile/username" },
 #     { lastfm = "https://lastfm.com/user/username" },
-#     { linkedin = "https://linkedin.com/in/username" },
+    { linkedin = "https://www.linkedin.com/in/fathi-naufal-hanif-028b69220/" },
 #     { mastodon = "https://mastodon.instance/@username" },
 #     { medium = "https://medium.com/username" },
 #     { microsoft = "https://www.microsoft.com/" },
@@ -60,6 +61,6 @@ title = "Blowfish"
 #     { twitter = "https://twitter.com/username" },
 #     { x-twitter = "https://twitter.com/username" },
 #     { whatsapp = "https://wa.me/phone-number" },
-#     { youtube = "https://youtube.com/username" },
+    { youtube = "https://youtube.com/@hanif0129?si=8fs4Jk3M15Ey4iDI" },
 #     { ko-fi = "https://ko-fi.com/username" },
-#   ]
+  ]
