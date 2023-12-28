@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 contentDir = "content/en"
-weight = 2
+weight = 1
 title = "Hanif012"
 
 [params]
@@ -9,16 +9,16 @@ title = "Hanif012"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-#   logo = "img/logo.jpg"
+  logo = "img/logo.jpg"
   # secondaryLogo = "img/portrait.png"
-  # description = "My awesome website"
+  description = "My awesome website"
   # copyright = "Copyright © { year } Hanif012"
 
 [author]
-  name = "Fathy Hanif"
-  image = "img/blowfish_logo.png"
+  name = "Hanif"
+  image = "img/portrait.png"
   headline = "Game Developer"
-  bio = "A ordinary human being"
+  bio = "An ordinary human being"
   links = [
     { email = "business.fathi.hanif@gmail.com" },
 #     { link = "https://link-to-some-website.com/" },

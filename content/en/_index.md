@@ -1,19 +1,22 @@
 ---
-title: "Welcome to Adilhyz :space_invader: 's blog"
-description: "Main page of adilhyz.github.io"
+title: "Welcome"
+description: "my welcome page"
 ---
 
-{{< typeit 
+{{< typeit
   tag=h1
   bold=true
-  lifeLike=false
-  breakLines=true
+  lifeLike=true
+  breakLines=false
   loop=true
-  speed=100
   waitUntilVisible=true
+  startDelay=1000
 >}} 
-All my fellas, welcome to my blog. 
+All my fellas, welcome to my blog.
+You can find here some of my projects, my thoughts, and my ideas.
+And I hope you will enjoy it.
 {{< /typeit >}}
+
 
 
 

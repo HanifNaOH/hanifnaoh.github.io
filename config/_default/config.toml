@@ -9,8 +9,8 @@ defaultContentLanguage = "en"
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
-paginate = 10
-summaryLength = 0
+paginate = 20
+summaryLength = 30
 
 buildDrafts = false
 buildFuture = false
@@ -35,8 +35,9 @@ buildFuture = false
   home = ["HTML", "RSS", "JSON"]
 
 [related]
-  threshold = 0
-  toLower = false
+  threshold = 1
+  toLower = true
+  includeNewer = true
 
     [[related.indices]]
         name = "tags"
@@ -52,11 +53,11 @@ buildFuture = false
 
     [[related.indices]]
         name = "authors"
-        weight = 20
+        weight = 10
 
     [[related.indices]]
         name = "date"
-        weight = 10
+        weight = 0
 
     [[related.indices]]
       applyFilter = false
