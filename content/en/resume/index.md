@@ -20,6 +20,4 @@ layoutBackgroundHeaderSpace: false
 
 ---
 
-## Experience
 
-## Education

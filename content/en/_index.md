@@ -16,10 +16,6 @@ All my fellas, welcome to my blog.
 You can find here some of my projects, my thoughts, and my ideas.
 And I hope you will enjoy it.
 {{< /typeit >}}
-
-
-
-
 <!-- {{< timeline >}}
 
 {{< timelineItem icon="github" header="header" badge="badge test" subheader="subheader" >}}

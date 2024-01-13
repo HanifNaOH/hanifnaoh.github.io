@@ -5,8 +5,8 @@ draft: false
 description: ""
 ---
 
+This is my first post for my blog. I hope you will enjoy it.
 # Introduction
-
 Hello there! 👋 I'm Hanif, a passionate college student hailing from Indonesia. Currently pursuing a degree in Computer Science, I find myself deeply engrossed in the fascinating world of Game Development.
 
 ## Academic Background
