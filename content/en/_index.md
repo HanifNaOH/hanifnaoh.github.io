@@ -1,6 +1,6 @@
 ---
-title: "Welcome"
-description: "my welcome page"
+title: "Hanif012"
+description: "Hanif012's personal website"
 ---
 
 {{< typeit
