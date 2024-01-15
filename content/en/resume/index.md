@@ -22,3 +22,8 @@ layoutBackgroundHeaderSpace: false
 
 __Available upon request.__
 
+{{<button href="https://www.linkedin.com/in/fathi-naufal-hanif-028b69220/">}}
+LinkedIn
+{{</button>}}
+
+
