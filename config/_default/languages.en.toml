@@ -10,7 +10,7 @@ title = "Hanif012"
   rtl = false
   dateFormat = "2 January 2006"
   logo = "img/logoNaOH.png"
-  # secondaryLogo = "img/portrait.png"
+  secondaryLogo = "img/logoNaOH.png"
   description = "My awesome website"
   # copyright = "Copyright © { year } Hanif012"
 

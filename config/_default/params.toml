@@ -31,8 +31,8 @@ smartTOCHideUnfocusedChildren = false
 [footer]
   showMenu = true
   showCopyright = true
-  showThemeAttribution = false
-  showAppearanceSwitcher = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = false
   showScrollToTop = true
 
 [homepage]
