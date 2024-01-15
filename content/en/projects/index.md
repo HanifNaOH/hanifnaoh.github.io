@@ -5,11 +5,11 @@ draft: false
 
 showDate : false
 showDateUpdated : false
-showHeadingAnchors : false
-showPagination : false
+showHeadingAnchors : true
+showPagination : true
 showReadingTime : false
 showTableOfContents : true
-showTaxonomies : false 
+showTaxonomies : true 
 showWordCount : false
 showSummary : false
 sharingLinks : false
@@ -25,25 +25,62 @@ layoutBackgroundHeaderSpace: false
 # Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non magna ex. Donec sollicitudin ut lorem quis lobortis. Nam ac ipsum libero. Sed a ex eget ipsum tincidunt venenatis quis sed nisl. Pellentesque sed urna vel odio consequat tincidunt id ut purus. Nam sollicitudin est sed dui interdum rhoncus. 
 # {{< /timelineItem >}}
 ---
-
+<h2>
+Here is my list of projects
+</h2>
 {{<timeline>}}
-{{<timelineItem icon="Gamepad" header="No Time To Waste" badge="January 2024" subheader="Game Jam">}}
-{{<lead>}}
-  job simulator game where you play as T0-N0, an early prototype robot in the AI Robot Industry Revolution of 2045. T0-N0, Robot designed to assist with various human duties, you find yourself thrust into a world where the deadline is coming. Engage in tasks with fast paced deadline, navigate through the story, and unveil the mysteries that lie within the relentless passage of time.
-{{</lead>}}
-{{</timelineItem>}}
+  {{<timelineItem icon="Gamepad" header="No Time To Waste" badge="January 2024" subheader="Game Jam">}}
+    {{< figure 
+    src="https://img.itch.zone/aW1nLzE0NTg0MTc4LnBuZw==/original/mdhV%2B9.png" 
+    alt="No Time To Waste" 
+    caption="Designed Me, programmed by [M Kevin](https://www.linkedin.com/in/marcelino-kevin-nanda-candrabagaskara-98520729b/?originalSubdomain=id), assets by [Kevin Adi](https://www.instagram.com/missing_names)">}}
 
+    <p>
+    Job simulator game where you play as T0-N0, an early prototype robot in the AI Robot Industry Revolution of 2045. T0-N0, Robot designed to assist with various human duties, you find yourself thrust into a world where the deadline is coming. Engage in tasks with fast paced deadline, navigate through the story, and unveil the mysteries that lie within the relentless passage of time.
+    </p>
+    <h3>
+    Available on:
+    </h3>
+    {{<button href="https://hanif012.itch.io/no-time-to-waste">}}
+    Itch.io
+    {{</button>}}
+  {{</timelineItem>}}
+
+  {{<timelineItem icon="Gamepad" header="Trash Crash" badge="2023" subheader="4C UB Finalist">}}
+  {{< figure 
+    src="https://img.itch.zone/aW1nLzE0MzA1MDY1LnBuZw==/original/bfiIzT.png" 
+    alt="No Time To Waste" 
+    caption="Designed Me, programmed by [M Kevin](https://www.linkedin.com/in/marcelino-kevin-nanda-candrabagaskara-98520729b/?originalSubdomain=id), assets by [Kevin Adi](https://www.instagram.com/missing_names)">}}
+    <iframe width="450" height="270" src="https://www.youtube.com/embed/e00tHon2HjU?si=oNY8etiESBVBoMDd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <p>
+    In a society plagued by waste, Bawang is determined to make a difference. Join him in a whimsical journey where players help Bawang sort through the chaos of littered landscapes, turning a cluttered world into a cleaner, greener haven. Through engaging gameplay, players not only enjoy the challenge of sorting various types of trash but also learn valuable lessons about waste management and environmental responsibility.
+    </p>
+    <h3>
+    Available on:
+    </h3>
+    {{<button href="https://arcantica.itch.io/trash-crash">}}
+    Itch.io
+    {{</button>}}
+  {{</timelineItem>}}
+
+  {{<timelineItem icon="Gamepad" header="Highschool Dump Project" badge="2020 - 2023" subheader="Some games that i made while in a highschool">}}
+    <p>
+    You could check out in this post below(since it's memorable for me)
+    </p>
+
+    {{<article link="/posts/school-chaos/">}}
+
+  {{</timelineItem>}}
 {{</timeline>}}
-
 
 {{< typeit
   tag=h1
   bold=true
   lifeLike=true
   breakLines=false
-  loop=true
+  loop=false
   waitUntilVisible=true
   startDelay=100
 >}} 
-It's all started with a dream.
+It's all started from a dream...
 {{< /typeit >}}
