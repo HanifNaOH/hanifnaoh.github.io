@@ -26,6 +26,8 @@ The primary goal is to secure two out of the three central locations on the game
 
 ### Gameplay
 
+![Gameplay](gallery/7.jpg)
+
 The simultaneous completion of turns injects excitement into every moment, making Marvel Snap an ideal on-the-go game, especially for mobile devices.
 
 ### Cards
