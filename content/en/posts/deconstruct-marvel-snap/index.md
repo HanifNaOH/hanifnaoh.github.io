@@ -32,13 +32,17 @@ The simultaneous completion of turns injects excitement into every moment, makin
 
 ### Cards
 
-Each card boasts a Power value. Winning duels rewards players with credits and card boosters, facilitating upgrades to card rarity.
+Each card in Marvel Snap has a Energy and Power value assigned to it. You start off by creating your deck with the cards available to you. Winning duels will reward you with credits and card boosters, which you can use to upgrade your card rarity.
 
 ### Locations
 
-Strategic adaptation is key as the game board's three locations unveil their unique effects each turn. With over 140 locations, players must be prepared for diverse challenges.
+There are three locations in the center of the game board. Each location has a different effect that will help or hinder your strategy based on your card deck. The location will be revealed one by one every turn. So you have to adapt your strategy based on the location. There are over 140 locations in the game, so you have to be prepared for anything.
 
-## Breakdown
+### Snap!
+
+Snap is a mechanic that will be unlocked after you play the game for a while. It's a special move that doubles your reward if you win the duel. But if you lose, you will lose double of your rewards too. So you have to be careful when using this feature. It's apply to both player, so you can use this for psychological warfare.
+
+## Notes
 
 {{< carousel images="gallery/*" interval="2500" >}}
 
