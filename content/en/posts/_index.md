@@ -16,3 +16,5 @@ sharingLinks : false
 
 ---
 
+This is where I write about things I'm interested in. I'm not sure how often I'll post, but I'll try to keep it up to date.
+
