@@ -42,7 +42,7 @@ There are three locations in the center of the game board. Each location has a d
 
 Snap is a mechanic that will be unlocked after you play the game for a while. It's a special move that doubles your reward if you win the duel. But if you lose, you will lose double of your rewards too. So you have to be careful when using this feature. It's apply to both player, so you can use this for psychological warfare.
 
-## Notes
+## Fun Factor
 
 {{< carousel images="gallery/*" interval="2500" >}}
 
