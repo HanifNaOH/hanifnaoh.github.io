@@ -51,7 +51,7 @@ Here is my list of projects
     src="https://img.itch.zone/aW1nLzE0MzA1MDY1LnBuZw==/original/bfiIzT.png" 
     alt="No Time To Waste" 
     caption="Designed Me, programmed by [M Kevin](https://www.linkedin.com/in/marcelino-kevin-nanda-candrabagaskara-98520729b/?originalSubdomain=id), assets by [Kevin Adi](https://www.instagram.com/missing_names)">}}
-    <iframe width="450" height="270" src="https://www.youtube.com/embed/e00tHon2HjU?si=oNY8etiESBVBoMDd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    {{< youtube id="e00tHon2HjU" autoplay="false" title="Trash Crash Trailer" muted="true">}}
     <p>
     In a society plagued by waste, Bawang is determined to make a difference. Join him in a whimsical journey where players help Bawang sort through the chaos of littered landscapes, turning a cluttered world into a cleaner, greener haven. Through engaging gameplay, players not only enjoy the challenge of sorting various types of trash but also learn valuable lessons about waste management and environmental responsibility.
     </p>
