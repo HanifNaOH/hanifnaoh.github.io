@@ -17,6 +17,7 @@ You can find here some of my projects, my thoughts, and my ideas.
 And I hope you will enjoy it.
 {{< /typeit >}}
 <!-- {{< timeline >}}
+hugo new 
 
 {{< timelineItem icon="github" header="header" badge="badge test" subheader="subheader" >}}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non magna ex. Donec sollicitudin ut lorem quis lobortis. Nam ac ipsum libero. Sed a ex eget ipsum tincidunt venenatis quis sed nisl. Pellentesque sed urna vel odio consequat tincidunt id ut purus. Nam sollicitudin est sed dui interdum rhoncus. 

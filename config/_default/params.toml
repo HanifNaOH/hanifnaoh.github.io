@@ -36,7 +36,7 @@ smartTOCHideUnfocusedChildren = false
   showScrollToTop = true
 
 [homepage]
-  layout = "background" # valid options: page, profile, hero, card, background, custom
+  layout = "custom" # valid options: page, profile, hero, card, background, custom
   homepageImage = "img/cube.jpg" # used in: hero, and card
   showRecent = true
   showRecentItems = 6
