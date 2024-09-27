@@ -1,1 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Godot on Hanif012</title><link>https://hanif012.github.com/tags/godot/</link><description>Recent content in Godot on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2024 Hanif</copyright><lastBuildDate>Mon, 01 Jan 2024 21:17:55 +0700</lastBuildDate><atom:link href="https://hanif012.github.com/tags/godot/index.xml" rel="self" type="application/rss+xml"/><item><title>My Highschool Game Project</title><link>https://hanif012.github.com/posts/school-chaos/</link><pubDate>Mon, 01 Jan 2024 21:17:55 +0700</pubDate><guid>https://hanif012.github.com/posts/school-chaos/</guid><description>I made this blog for my past project that i do when i was on highschool. Pandemic # Just like others, online school is boring. So i started to learn game development.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanif012.github.com/posts/school-chaos/featured.jpg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Godot on Hanif012</title><link>https://hanif012.github.com/tags/godot/</link><description>Recent content in Godot on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2024 Hanif</copyright><lastBuildDate>Mon, 01 Jan 2024 21:17:55 +0700</lastBuildDate><atom:link href="https://hanif012.github.com/tags/godot/index.xml" rel="self" type="application/rss+xml"/><item><title>My Highschool Game Project</title><link>https://hanif012.github.com/posts/school-chaos/</link><pubDate>Mon, 01 Jan 2024 21:17:55 +0700</pubDate><guid>https://hanif012.github.com/posts/school-chaos/</guid><description>&lt;p>I made this blog for my past project that i do when i was on highschool.
+&lt;h1 id="typeit-ddaf1096996a15f40134186e45fab7aa">&lt;/h1>
+&lt;script>
+document.addEventListener("DOMContentLoaded", function () {
+new TypeIt("#typeit-ddaf1096996a15f40134186e45fab7aa", {
+strings: [""," This is where it all begins...",""],
+speed: 100 ,
+lifeLike: true ,
+startDelay: 100 ,
+breakLines: false ,
+waitUntilVisible: true ,
+loop: false
+}).go();
+});
+&lt;/script>&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanif012.github.com/posts/school-chaos/featured.jpg"/></item></channel></rss>
