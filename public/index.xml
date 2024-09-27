@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hanif012</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Hanif012</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Hanif</copyright>
+    <lastBuildDate>Wed, 24 Jan 2024 22:11:23 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Marvel Snap - A New Era of Collectible Card Games</title>
+      <link>http://localhost:1313/posts/deconstruct-marvel-snap/</link>
+      <pubDate>Wed, 24 Jan 2024 22:11:23 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/deconstruct-marvel-snap/</guid>
+      <description>Introduction #It&amp;rsquo;s probably too late for me to deconstruct Marvel Snap since the game is classified as high end that take about 4gigs storage both mobile and desktop. So let&amp;rsquo;s break it down what is Marvel Snap.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/deconstruct-marvel-snap/featured.png" />
+    </item>
+    
+    <item>
+      <title>My Highschool Game Project</title>
+      <link>http://localhost:1313/posts/school-chaos/</link>
+      <pubDate>Mon, 01 Jan 2024 21:17:55 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/school-chaos/</guid>
+      <description>I made this blog for my past project that i do when i was on highschool. Pandemic #Just like others, online school is boring. So i started to learn game development.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/school-chaos/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Thu, 28 Dec 2023 21:24:06 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>This is my first post for my blog. I hope you will enjoy it.
+Introduction #Hello there! 👋 I&amp;rsquo;m Hanif, a passionate college student hailing from Indonesia. Currently pursuing a degree in Computer Science, I find myself deeply engrossed in the fascinating world of Game Development.</description>
+      
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 28 Dec 2023 18:21:07 +0700</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>I&amp;rsquo;ve been developing game since 2020. You could check my game on itch.io or others project on my github.</description>
+      
+    </item>
+    
+    <item>
+      <title>Resume and CV</title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Mon, 13 Jun 2022 21:28:51 +0100</pubDate>
+      
+      <guid>http://localhost:1313/resume/</guid>
+      <description>Available upon request.
+LinkedIn</description>
+      
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
+      
+      <guid>http://localhost:1313/projects/</guid>
+      <description>Here is my list of projects&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;No Time To Waste January 2024Global Game Jam 2024I trained Nicholas D for game designer roles, game programing by Steven W and George M, assets by Kevin AdiLore’s Quests is a simple and lighthearted 2D ragdoll physics game in which you play as a jester trying to entertain and pander to each and every whim of the King Lore-Lore in order to stay alive.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

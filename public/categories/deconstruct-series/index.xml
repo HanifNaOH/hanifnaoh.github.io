@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deconstruct Series on Hanif012</title>
+    <link>http://localhost:1313/categories/deconstruct-series/</link>
+    <description>Recent content in Deconstruct Series on Hanif012</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Hanif</copyright>
+    <lastBuildDate>Wed, 24 Jan 2024 22:11:23 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/deconstruct-series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Marvel Snap - A New Era of Collectible Card Games</title>
+      <link>http://localhost:1313/posts/deconstruct-marvel-snap/</link>
+      <pubDate>Wed, 24 Jan 2024 22:11:23 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/deconstruct-marvel-snap/</guid>
+      <description>Introduction #It&amp;rsquo;s probably too late for me to deconstruct Marvel Snap since the game is classified as high end that take about 4gigs storage both mobile and desktop. So let&amp;rsquo;s break it down what is Marvel Snap.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/deconstruct-marvel-snap/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

@@ -29,6 +29,22 @@ layoutBackgroundHeaderSpace: false
 Here is my list of projects
 </h2>
 {{<timeline>}}
+  {{<timelineItem icon="Gamepad" header="No Time To Waste" badge="January 2024" subheader="Global Game Jam 2024">}}
+    {{< figure 
+    src="https://img.itch.zone/aW1nLzE0ODU0MTc5LnBuZw==/original/N%2FBXSS.png" 
+    alt="No Time To Waste" 
+    caption="I trained [Nicholas D](https://itch.io/profile/ashzen) for game designer roles, game programing by [Steven W](https://steven111105.itch.io) and [George M](https://geeezz.itch.io/), assets by [Kevin Adi](https://www.instagram.com/missing_names)">}}
+
+    <p>
+    Lore’s Quests is a simple and lighthearted 2D ragdoll physics game in which you play as a jester trying to entertain and pander to each and every whim of the King Lore-Lore in order to stay alive. Usually this means doing normal tricks with your body movement or popping balloony, what’s the worst thing could happen?
+    </p>
+    <h3>
+    Available on:
+    </h3>
+    {{<button href="https://hanif012.itch.io/lore-quests">}}
+    Itch.io
+    {{</button>}}
+  {{</timelineItem>}}
   {{<timelineItem icon="Gamepad" header="No Time To Waste" badge="January 2024" subheader="Game Jam">}}
     {{< figure 
     src="https://img.itch.zone/aW1nLzE0NTg0MTc4LnBuZw==/original/mdhV%2B9.png" 
