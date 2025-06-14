@@ -1,4 +1,4 @@
-# hanif012.github.io
+# hanifnaoh.com
 my personal website
 
 ## How to create a new post
