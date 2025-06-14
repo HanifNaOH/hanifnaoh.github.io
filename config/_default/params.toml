@@ -115,3 +115,9 @@ measurementId = "G-Y15Y2DTYDX"
 [buymeacoffee]
 
 [verification]
+
+[posthog]
+apiKey         = "phc_jtawtHjdZmzvIJ5djMdTOz6GrhwYU3WxJAmxkZG8V8l"
+apiHost        = "https://us.i.posthog.com"
+defaults       = "2025-05-24"
+person_profiles = "identified_only"
