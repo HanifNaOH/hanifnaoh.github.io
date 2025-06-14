@@ -33,6 +33,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/posts/deconstruct-stardew-valley/</loc>
+    <lastmod>2023-12-27T21:36:25+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/resume/</loc>
     <lastmod>2022-06-13T21:28:51+01:00</lastmod>
     <changefreq>daily</changefreq>
