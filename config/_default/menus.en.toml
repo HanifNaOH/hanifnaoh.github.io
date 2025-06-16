@@ -22,8 +22,8 @@ pageRef = "Posts"
 weight = 20
 
 [[main]]
- name = "Resume and CV"
- pageRef = "resume"
+ name = "Gallery"
+ pageRef = "gallery"
  weight = 30
 
 [[main]]

@@ -15,10 +15,10 @@ title = "Hanif012"
   copyright = "Copyright © { year } HanifNaOH"
 
 [params.author]
-  name = "Hanif"
+  name = "HanifNaOH"
   image = "img/portrait.png"
-  headline = "Game Developer"
-  bio = "An ordinary human being"
+  headline = "Game Designer"
+  bio = "I love creating games and sharing my knowledge with the world. Follow me for updates on my latest projects and insights into game development."
   links = [
     # { email = "business.fathi.hanif@gmail.com" },
 #     { link = "https://link-to-some-website.com/" },
