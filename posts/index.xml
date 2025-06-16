@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hanif012</title><link>https://hanif012.github.com/posts/</link><description>Recent content in Posts on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2024 Hanif</copyright><lastBuildDate>Mon, 13 Jun 2022 20:55:37 +0100</lastBuildDate><atom:link href="https://hanif012.github.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Marvel Snap - A New Era of Collectible Card Games</title><link>https://hanif012.github.com/posts/deconstruct-marvel-snap/</link><pubDate>Wed, 24 Jan 2024 22:11:23 +0700</pubDate><guid>https://hanif012.github.com/posts/deconstruct-marvel-snap/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hanif012</title><link>https://hanif012.github.com/posts/</link><description>Recent content in Posts on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025</copyright><lastBuildDate>Mon, 13 Jun 2022 20:55:37 +0100</lastBuildDate><atom:link href="https://hanif012.github.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Marvel Snap - A New Era of Collectible Card Games</title><link>https://hanif012.github.com/posts/deconstruct-marvel-snap/</link><pubDate>Wed, 24 Jan 2024 22:11:23 +0700</pubDate><guid>https://hanif012.github.com/posts/deconstruct-marvel-snap/</guid><description>&lt;p>
 &lt;figure>
 &lt;img
-class="my-0 rounded-md"
+class="my-0 rounded-md" loading="lazy" decoding="async" fetchpriority="low" alt="Marvel Snap"
+srcset="
+/posts/deconstruct-marvel-snap/_MARVELSNAPLOGO_hu_53df554e650ffd10.png 330w,
+/posts/deconstruct-marvel-snap/_MARVELSNAPLOGO_hu_1ad226ccf4436c93.png 660w,
+/posts/deconstruct-marvel-snap/_MARVELSNAPLOGO_hu_46b73c843131d419.png 1280w"
+data-zoom-src="https://hanif012.github.com/posts/deconstruct-marvel-snap/_MARVELSNAPLOGO.png"
 src="https://hanif012.github.com/posts/deconstruct-marvel-snap/_MARVELSNAPLOGO.png"
-alt="Marvel Snap"
 />
 &lt;/figure>
 &lt;/p>
@@ -15,7 +19,8 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#introduction" aria-label="Anchor">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>It&amp;rsquo;s probably too late for me to deconstruct Marvel Snap since the game is classified as high end that take about 4gigs storage both mobile and desktop. So let&amp;rsquo;s break it down what is Marvel Snap.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanif012.github.com/posts/deconstruct-marvel-snap/featured.png"/></item><item><title>My Highschool Game Project</title><link>https://hanif012.github.com/posts/school-chaos/</link><pubDate>Mon, 01 Jan 2024 21:17:55 +0700</pubDate><guid>https://hanif012.github.com/posts/school-chaos/</guid><description>&lt;p>I made this blog for my past project that i do when i was on highschool.
+&lt;p>It&amp;rsquo;s probably too late for me to deconstruct Marvel Snap since the game is classified as high end that take about 4gigs storage both mobile and desktop. So let&amp;rsquo;s break it down what is Marvel Snap.&lt;/p>
+&lt;p>Marvel Snap, developed by &lt;a href="https://seconddinner.com" target="_blank">Second Dinner Studios&lt;/a> and published by &lt;a href="https://www.nvsgames.com/" target="_blank">Nuverse&lt;/a>, has emerged as a fast-paced collectible card game sensation. This review delves into the captivating world of Marvel Snap, where players construct superhero teams and engage in strategic battles across both PC and mobile platforms.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanif012.github.com/posts/deconstruct-marvel-snap/featured.png"/></item><item><title>My Highschool Game Project</title><link>https://hanif012.github.com/posts/school-chaos/</link><pubDate>Mon, 01 Jan 2024 21:17:55 +0700</pubDate><guid>https://hanif012.github.com/posts/school-chaos/</guid><description>&lt;p>I made this blog for my past project that i do when i was on highschool.
 &lt;h1 id="typeit-ddaf1096996a15f40134186e45fab7aa">&lt;/h1>
 &lt;script>
 document.addEventListener("DOMContentLoaded", function () {
@@ -29,7 +34,16 @@ waitUntilVisible: true ,
 loop: false
 }).go();
 });
-&lt;/script>&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanif012.github.com/posts/school-chaos/featured.jpg"/></item><item><title>My First Post</title><link>https://hanif012.github.com/posts/my-first-post/</link><pubDate>Thu, 28 Dec 2023 21:24:06 +0700</pubDate><guid>https://hanif012.github.com/posts/my-first-post/</guid><description>&lt;p>This is my first post for my blog. I hope you will enjoy it.&lt;/p>
+&lt;/script>&lt;/p>
+&lt;h1 class="relative group">Pandemic
+&lt;div id="pandemic" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#pandemic" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h1>
+&lt;p>Just like others, online school is boring. So i started to learn game development. I started with Godot Engine since its lite and doesn&amp;rsquo;t need a lot of resources. I started with a simple game, a platformer game.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanif012.github.com/posts/school-chaos/featured.jpg"/></item><item><title>My First Post</title><link>https://hanif012.github.com/posts/my-first-post/</link><pubDate>Thu, 28 Dec 2023 21:24:06 +0700</pubDate><guid>https://hanif012.github.com/posts/my-first-post/</guid><description>&lt;p>This is my first post for my blog. I hope you will enjoy it.&lt;/p>
 &lt;h1 class="relative group">Introduction
 &lt;div id="introduction" class="anchor">&lt;/div>
 &lt;span
@@ -38,4 +52,26 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#introduction" aria-label="Anchor">#&lt;/a>
 &lt;/span>
 &lt;/h1>
-&lt;p>Hello there! 👋 I&amp;rsquo;m Hanif, a passionate college student hailing from Indonesia. Currently pursuing a degree in Computer Science, I find myself deeply engrossed in the fascinating world of Game Development.&lt;/p></description></item></channel></rss>
+&lt;p>Hello there! 👋 I&amp;rsquo;m Hanif, a passionate college student hailing from Indonesia. Currently pursuing a degree in Computer Science, I find myself deeply engrossed in the fascinating world of Game Development.&lt;/p>
+&lt;h2 class="relative group">Academic Background
+&lt;div id="academic-background" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#academic-background" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>I am actively engaged in honing my skills and knowledge within the realms of computer science, with a keen focus on game development technologies and methodologies. The dynamic and ever-evolving nature of this field captivates my interest, and I am dedicated to staying abreast of the latest advancements.&lt;/p></description></item><item><title>Stardew Valley - The Pioneer of Cozy Farming Genre</title><link>https://hanif012.github.com/posts/deconstruct-stardew-valley/</link><pubDate>Wed, 27 Dec 2023 21:36:25 +0700</pubDate><guid>https://hanif012.github.com/posts/deconstruct-stardew-valley/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="Stardew Valley" src="https://www.stardewvalley.net/wp-content/uploads/2017/12/med_logo.png" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">Introduction
+&lt;div id="introduction" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#introduction" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>Stardew Valley, developed solely by Eric Barone under the alias ConcernedApe, is a farming simulation role-playing game released in 2016. It pays homage to the Harvest Moon series while introducing its own unique elements. From a game designer&amp;rsquo;s perspective, Stardew Valley is a masterclass in blending gameplay mechanics, player engagement, and genre innovation, which contributed to its trendiness and significant impact on the farming genre.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanif012.github.com/posts/deconstruct-stardew-valley/featured.png"/></item></channel></rss>
