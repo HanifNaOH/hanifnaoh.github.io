@@ -2,3 +2,5 @@ baseURL = 'https://hanifnaoh.com/'
 languageCode = 'en-us'
 title = 'Hanif012'
 theme = 'blowfish'
+
+# Configuration is now managed in the config/_default directory

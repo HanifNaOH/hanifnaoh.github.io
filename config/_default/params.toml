@@ -1,3 +1,10 @@
+# -- Theme Options --
+# These options control how the theme functions and allow you to
+# customise the display of your website.
+#
+# Refer to the theme docs for more details about each of these parameters.
+# https://blowfish.page/docs/configuration/#theme-parameters
+
 colorScheme = "avocado"
 defaultAppearance = "dark"
 autoSwitchAppearance = false
@@ -8,12 +15,17 @@ disableImageOptimization = true
 disableTextInHeader = true
 defaultBackgroundImage = "img/cube.jpg"
 defaultFeaturedImage = "img/logo.jpg"
+# defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
 highlightCurrentMenuArea = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = false
 
+# replyByEmail = false
+# robots = ""
+# backgroundImageWidth = 1200
+
 [header]
-layout = "fixed"
+layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
 [footer]
 showMenu = true
@@ -23,7 +35,7 @@ showAppearanceSwitcher = false
 showScrollToTop = true
 
 [homepage]
-layout = "background"
+layout = "background" # valid options: background, cards, list
 homepageImage = "img/cube.jpg"
 showRecent = true
 showRecentItems = 6

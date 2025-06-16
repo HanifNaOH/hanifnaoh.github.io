@@ -5,16 +5,19 @@ draft: false
 
 showDate : false
 showDateUpdated : false
-showHeadingAnchors : false
-showPagination : false
+showHeadingAnchors : true
+showPagination : true
 showReadingTime : false
-showTableOfContents : true
-showTaxonomies : false 
+showTableOfContents : false
+showTaxonomies : true 
 showWordCount : false
 showSummary : false
 sharingLinks : false
+showEdit: false
+showViews: true
+showLikes: false
+layoutBackgroundHeaderSpace: false
 
 ---
 
 This is where I write about things I'm interested in. I'm not sure how often I'll post, but I'll try to keep it up to date.
-

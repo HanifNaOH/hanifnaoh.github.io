@@ -4,13 +4,25 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-01-24T22:11:23+07:00</lastmod>
+    <lastmod>2024-01-31T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/projects/lores-quests/</loc>
+    <lastmod>2024-01-31T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/posts/deconstruct-marvel-snap/</loc>
     <lastmod>2024-01-24T22:11:23+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/projects/no-time-to-waste/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -35,6 +47,18 @@
   <url>
     <loc>http://localhost:1313/posts/deconstruct-stardew-valley/</loc>
     <lastmod>2023-12-27T21:36:25+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/projects/trash-crash/</loc>
+    <lastmod>2023-12-15T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/projects/highschool-projects/</loc>
+    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

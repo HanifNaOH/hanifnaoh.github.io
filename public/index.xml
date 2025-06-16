@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HanifNaOH.com on Hanif012</title>
+    <title>Hanif Naoh on Hanif012</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in HanifNaOH.com on Hanif012</description>
+    <description>Recent content in Hanif Naoh on Hanif012</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2025 </copyright>
-    <lastBuildDate>Wed, 24 Jan 2024 22:11:23 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2025 HanifNaOH</copyright>
+    <lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lore&#39;s Quests</title>
+      <link>http://localhost:1313/projects/lores-quests/</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/lores-quests/</guid>
+      <description>I trained Nicholas D for game designer roles, game programing by Steven W and George M, assets by Kevin AdiAbout the Game #Lore&amp;rsquo;s Quests is a simple and lighthearted 2D ragdoll physics game in which you play as a jester trying to entertain and pander to each and every whim of the King Lore-Lore in order to stay alive.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/lores-quests/featured.jpg" />
+    </item>
     
     <item>
       <title>Marvel Snap - A New Era of Collectible Card Games</title>
@@ -17,6 +27,16 @@
       <guid>http://localhost:1313/posts/deconstruct-marvel-snap/</guid>
       <description>Introduction #It&amp;rsquo;s probably too late for me to deconstruct Marvel Snap since the game is classified as high end that take about 4gigs storage both mobile and desktop. So let&amp;rsquo;s break it down what is Marvel Snap.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/deconstruct-marvel-snap/featured.png" />
+    </item>
+    
+    <item>
+      <title>No Time To Waste</title>
+      <link>http://localhost:1313/projects/no-time-to-waste/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/no-time-to-waste/</guid>
+      <description>Designed by me, programmed by M Kevin, assets by Kevin AdiAbout the Game #Job simulator game where you play as T0-N0, an early prototype robot in the AI Robot Industry Revolution of 2045.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/no-time-to-waste/featured.jpg" />
     </item>
     
     <item>
@@ -46,7 +66,7 @@ Introduction #Hello there! 👋 I&amp;rsquo;m Hanif, a passionate college stude
       <pubDate>Thu, 28 Dec 2023 18:21:07 +0700</pubDate>
       
       <guid>http://localhost:1313/about/</guid>
-      <description>I&amp;rsquo;ve been developing game since 2020. You could check my game on itch.io or others project on my github.</description>
+      <description>I&amp;rsquo;ve been developing game since 2020. You could check my game on Itch.io, or you could check my projects on this website. I also have a blog where I write about things I&amp;rsquo;m interested in, and I try to keep it up to date.</description>
       
     </item>
     
@@ -61,6 +81,26 @@ Introduction #Hello there! 👋 I&amp;rsquo;m Hanif, a passionate college stude
     </item>
     
     <item>
+      <title>Trash Crash</title>
+      <link>http://localhost:1313/projects/trash-crash/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/trash-crash/</guid>
+      <description>Designed by me, programmed by M Kevin, assets by Kevin AdiAbout the Game #In a society plagued by waste, Bawang is determined to make a difference. Join him in a whimsical journey where players help Bawang sort through the chaos of littered landscapes, turning a cluttered world into a cleaner, greener haven.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/trash-crash/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Highschool Projects</title>
+      <link>http://localhost:1313/projects/highschool-projects/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/highschool-projects/</guid>
+      <description>About These Projects #These are various game projects that I created during my high school years from 2020 to 2023. They represent my early journey into game development and hold special memories for me.</description>
+      
+    </item>
+    
+    <item>
       <title>Resume and CV</title>
       <link>http://localhost:1313/resume/</link>
       <pubDate>Mon, 13 Jun 2022 21:28:51 +0100</pubDate>
@@ -68,16 +108,6 @@ Introduction #Hello there! 👋 I&amp;rsquo;m Hanif, a passionate college stude
       <guid>http://localhost:1313/resume/</guid>
       <description>Available upon request.
 LinkedIn</description>
-      
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>http://localhost:1313/projects/</link>
-      <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
-      
-      <guid>http://localhost:1313/projects/</guid>
-      <description>Here is my list of projects&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;No Time To Waste January 2024Global Game Jam 2024I trained Nicholas D for game designer roles, game programing by Steven W and George M, assets by Kevin AdiLore’s Quests is a simple and lighthearted 2D ragdoll physics game in which you play as a jester trying to entertain and pander to each and every whim of the King Lore-Lore in order to stay alive.</description>
       
     </item>
     
