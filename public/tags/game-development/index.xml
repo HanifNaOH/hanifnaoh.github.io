@@ -2,19 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Game Development on Hanif012</title>
-    <link>https://hanifnaoh.com/tags/game-development/</link>
+    <link>http://localhost:1313/tags/game-development/</link>
     <description>Recent content in Game Development on Hanif012</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2025 HanifNaOH</copyright>
-    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifnaoh.com/tags/game-development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/game-development/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2D Horror Game vs 3D Horror Game</title>
+      <link>http://localhost:1313/posts/horror-game-2d-vs-3d/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/horror-game-2d-vs-3d/</guid>
+      <description>Overview #In this post, I&amp;rsquo;ve developed a 2D horror game and a 3D horror game with my colleagues, and I want to share my experiences with both. I&amp;rsquo;ll discuss the unique challenges and advantages we encountered during development, as well as how each approach impacted player engagement and immersion.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/horror-game-2d-vs-3d/featured.png" />
+    </item>
     
     <item>
       <title>Highschool Projects</title>
-      <link>https://hanifnaoh.com/projects/highschool-projects/</link>
+      <link>http://localhost:1313/projects/highschool-projects/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://hanifnaoh.com/projects/highschool-projects/</guid>
+      <guid>http://localhost:1313/projects/highschool-projects/</guid>
       <description>About These Projects #These are various game projects that I created during my high school years from 2020 to 2023. They represent my early journey into game development and hold special memories for me.</description>
       
     </item>
