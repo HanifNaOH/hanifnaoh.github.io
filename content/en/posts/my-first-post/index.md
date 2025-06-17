@@ -1,5 +1,5 @@
 ---
-title: "My First Post"
+title: "Hello World!"
 date: 2023-12-28T21:24:06+07:00
 draft: false
 description: ""
@@ -7,9 +7,9 @@ description: ""
 
 This is my first post for my blog. I hope you will enjoy it.
 
-# Introduction
+## Introduction
 
-Hello there! 👋 I'm Hanif, a passionate college student hailing from Indonesia. Currently pursuing a degree in Computer Science, I find myself deeply engrossed in the fascinating world of Game Development.
+Hello there! 👋 I'm Hanif, a passionate college student hailing from Indonesia. Currently pursuing a degree major in Computer Science and I have a minor in Game Application Development, I find myself lost in the fascinating world of Game Development.
 
 ## Academic Background
 
