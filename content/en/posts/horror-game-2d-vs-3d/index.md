@@ -2,6 +2,7 @@
  title: "2D Horror Game vs 3D Horror Game"
  date: 2025-05-01
  draft: true
+ tags: ["game development", "horror games", "2D games", "3D games"]
  description: "Comparing development challenges between 2D and 3D horror games."
 ---
 
@@ -24,6 +25,7 @@ In contrast, 3D games operate in a three-dimensional space (x, y, and z), allowi
 The 2D horror game we developed had its own set of challenges. Creating a compelling atmosphere with limited visual depth required us to focus heavily on art style, sound design, and narrative. We used 2D lighting techniques to evoke a sense of nostalgia while incorporating eerie soundscapes to enhance the horror elements.
 
 ### 3D Horror Game
+
 ![alt text](ebgif.gif)
 The 3D horror game presented a different set of challenges. The complexity of 3D modeling, animation, and physics required a more robust development pipeline. We had to consider camera angles, lighting effects, and spatial audio to create an immersive environment. The increased detail in graphics allowed for more realistic scares, but it also demanded more resources and time.
 
