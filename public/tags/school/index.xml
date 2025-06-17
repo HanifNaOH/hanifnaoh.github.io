@@ -1,2 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>School on Hanif012</title><link>https://hanifnaoh.com/tags/school/</link><description>Recent content in School on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2025 HanifNaOH</copyright><lastBuildDate>Mon, 01 Jan 2024 21:17:55 +0700</lastBuildDate><atom:link href="https://hanifnaoh.com/tags/school/index.xml" rel="self" type="application/rss+xml"/><item><title>My Highschool Game Project</title><link>https://hanifnaoh.com/posts/school-chaos/</link><pubDate>Mon, 01 Jan 2024 21:17:55 +0700</pubDate><guid>https://hanifnaoh.com/posts/school-chaos/</guid><description>I made this blog for my past project that i do when i was on highschool. Pandemic #
-Just like others, online school is boring. So i started to learn game development.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/posts/school-chaos/featured.jpg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>School on Hanif012</title>
+    <link>http://localhost:1313/tags/school/</link>
+    <description>Recent content in School on Hanif012</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2025 HanifNaOH</copyright>
+    <lastBuildDate>Mon, 01 Jan 2024 21:17:55 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/school/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My Highschool Game Project</title>
+      <link>http://localhost:1313/posts/school-chaos/</link>
+      <pubDate>Mon, 01 Jan 2024 21:17:55 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/school-chaos/</guid>
+      <description>I made this blog for my past project that i do when i was on highschool. Pandemic #Just like others, online school is boring. So i started to learn game development.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/school-chaos/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

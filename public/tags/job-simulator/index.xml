@@ -1,3 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Job Simulator on Hanif012</title><link>https://hanifnaoh.com/tags/job-simulator/</link><description>Recent content in Job Simulator on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2025 HanifNaOH</copyright><lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifnaoh.com/tags/job-simulator/index.xml" rel="self" type="application/rss+xml"/><item><title>No Time To Waste</title><link>https://hanifnaoh.com/projects/no-time-to-waste/</link><pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/projects/no-time-to-waste/</guid><description>Designed by me, programmed by M Kevin, assets by Kevin Adi
-About the Game #
-Job simulator game where you play as T0-N0, an early prototype robot in the AI Robot Industry Revolution of 2045.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/projects/no-time-to-waste/featured.jpg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Job Simulator on Hanif012</title>
+    <link>http://localhost:1313/tags/job-simulator/</link>
+    <description>Recent content in Job Simulator on Hanif012</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2025 HanifNaOH</copyright>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/job-simulator/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>No Time To Waste</title>
+      <link>http://localhost:1313/projects/no-time-to-waste/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/no-time-to-waste/</guid>
+      <description>Designed by me, programmed by M Kevin, assets by Kevin AdiAbout the Game #Job simulator game where you play as T0-N0, an early prototype robot in the AI Robot Industry Revolution of 2045.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/no-time-to-waste/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

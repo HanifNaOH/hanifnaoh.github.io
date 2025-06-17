@@ -16,6 +16,4 @@ The theme this year was "Make Me Laugh" which inspired us to make a game about a
 
 ## The Gameplay
 
-![gameplay](featured.gif)
-
 The game is a 2D platformer where you control a clown who must navigate through various levels filled with obstacles and traps to reach the King Lore Lore wishes. The clown has unique abilities, such as juggling and throwing axes, which we added ragdoll physics because why not?

@@ -1,3 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Global Game Jam 2024 on Hanif012</title><link>https://hanifnaoh.com/tags/global-game-jam-2024/</link><description>Recent content in Global Game Jam 2024 on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2025 HanifNaOH</copyright><lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifnaoh.com/tags/global-game-jam-2024/index.xml" rel="self" type="application/rss+xml"/><item><title>Lore's Quests</title><link>https://hanifnaoh.com/projects/lores-quests/</link><pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/projects/lores-quests/</guid><description>I trained Nicholas D for game designer roles, game programing by Steven W and George M, assets by Kevin Adi
-About the Game #
-Lore&amp;rsquo;s Quests is a simple and lighthearted 2D ragdoll physics game in which you play as a jester trying to entertain and pander to each and every whim of the King Lore-Lore in order to stay alive.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/projects/lores-quests/featured.jpg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Global Game Jam 2024 on Hanif012</title>
+    <link>http://localhost:1313/tags/global-game-jam-2024/</link>
+    <description>Recent content in Global Game Jam 2024 on Hanif012</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2025 HanifNaOH</copyright>
+    <lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/global-game-jam-2024/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lore&#39;s Quests</title>
+      <link>http://localhost:1313/projects/lores-quests/</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/lores-quests/</guid>
+      <description>I trained Nicholas D for game designer roles, game programing by Steven W and George M, assets by Kevin AdiAbout the Game #Lore&amp;rsquo;s Quests is a simple and lighthearted 2D ragdoll physics game in which you play as a jester trying to entertain and pander to each and every whim of the King Lore-Lore in order to stay alive.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/lores-quests/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>
