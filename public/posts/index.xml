@@ -15,8 +15,9 @@
       <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/godot-vs-unity-unreal/</guid>
-      <description>In this post, I compare Godot, Unity, and Unreal Engine across features, performance, and community support to help you choose the right engine for your next project.</description>
-      
+      <description>In this post, I compare Godot, Unity, and Unreal Engine across features, performance, and community support to help you choose the right engine for your next project.
+Features #Godot #Godot’s node-based scene system and integrated GDScript make it incredibly approachable.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/godot-vs-unity-unreal/featured.png" />
     </item>
     
     <item>
