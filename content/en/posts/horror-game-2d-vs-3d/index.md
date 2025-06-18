@@ -26,7 +26,7 @@ The 2D horror game we developed had its own set of challenges. Creating a compel
 
 ### 3D Horror Game
 
-[![alt text](ebgif.gif)](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3334600/extras/walk1Steam.gif?t=1745612123)
+![3D horror game animation](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3334600/extras/017NewSteam.gif?t=1745612123)
 The 3D horror game presented a different set of challenges. The complexity of 3D modeling, animation, and physics required a more robust development pipeline. We had to consider camera angles, lighting effects, and spatial audio to create an immersive environment. The increased detail in graphics allowed for more realistic scares, but it also demanded more resources and time.
 
 ## Whats the similarities?
