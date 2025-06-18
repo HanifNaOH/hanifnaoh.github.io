@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hanif012</title><link>https://hanifnaoh.com/posts/</link><description>Recent content in Posts on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2025 HanifNaOH</copyright><lastBuildDate>Mon, 13 Jun 2022 20:55:37 +0100</lastBuildDate><atom:link href="https://hanifnaoh.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure vs AWS for Game Developers</title><link>https://hanifnaoh.com/posts/azure-vs-aws-overview/</link><pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/azure-vs-aws-overview/</guid><description>&lt;h2 class="relative group">Why compare Azure and AWS for games?
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hanif012</title><link>https://hanifnaoh.com/posts/</link><description>Recent content in Posts on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2025 HanifNaOH</copyright><lastBuildDate>Mon, 13 Jun 2022 20:55:37 +0100</lastBuildDate><atom:link href="https://hanifnaoh.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Godot vs Unity vs Unreal: A Technical Designer's Analysis</title><link>https://hanifnaoh.com/posts/godot-vs-unity-unreal/</link><pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/godot-vs-unity-unreal/</guid><description>&lt;p>In this post, I compare Godot, Unity, and Unreal Engine across features, performance, and community support to help you choose the right engine for your next project.&lt;/p>
+&lt;h2 class="relative group">Features
+&lt;div id="features" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#features" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;h3 class="relative group">Godot
+&lt;div id="godot" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#godot" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h3>
+&lt;p>
+&lt;figure>
+&lt;img
+class="my-0 rounded-md" loading="lazy" decoding="async" fetchpriority="low" alt="godot"
+srcset="
+/posts/godot-vs-unity-unreal/godot_hu_9108ed7a1c86235a.png 330w,
+/posts/godot-vs-unity-unreal/godot_hu_306af4e69f5a17e5.png 660w,
+/posts/godot-vs-unity-unreal/godot_hu_ec79f0964b60e1bc.png 1280w"
+data-zoom-src="https://hanifnaoh.com/posts/godot-vs-unity-unreal/godot.png"
+src="https://hanifnaoh.com/posts/godot-vs-unity-unreal/godot.png"
+/>
+&lt;/figure>
+Godot’s node-based scene system and integrated GDScript make it incredibly approachable. You can also script in C#, C++, or VisualScript, and everything lives as files on disk—perfect for version control. Its MIT license means zero royalties or subscriptions.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/posts/godot-vs-unity-unreal/featured.png"/></item><item><title>2D Horror Game vs 3D Horror Game: A Designer's Perspective</title><link>https://hanifnaoh.com/posts/horror-game-2d-vs-3d/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/horror-game-2d-vs-3d/</guid><description>&lt;h2 class="relative group">Overview
+&lt;div id="overview" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>In this post, I&amp;rsquo;ve developed a 2D horror game and a 3D horror game with my colleagues, and I want to share my experiences with both. I&amp;rsquo;ll discuss the unique challenges and advantages we encountered during development, as well as how each approach impacted player engagement and immersion.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/posts/horror-game-2d-vs-3d/featured.png"/></item><item><title>Azure vs AWS for Game Developers</title><link>https://hanifnaoh.com/posts/azure-vs-aws-overview/</link><pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/azure-vs-aws-overview/</guid><description>&lt;h2 class="relative group">Why compare Azure and AWS for games?
 &lt;div id="why-compare-azure-and-aws-for-games" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
@@ -6,7 +43,23 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#why-compare-azure-and-aws-for-games" aria-label="Anchor">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>I spun up both a &lt;strong>multiplayer lobby service&lt;/strong> and a &lt;strong>dedicated game-server fleet&lt;/strong> to measure cost, latency, and developer friction on each cloud. Here’s what stood out once I put real players on the servers.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/posts/azure-vs-aws-overview/featured.png"/></item><item><title>Maintaining Blog Portfolio with Cloudflare and GitHub Actions</title><link>https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/</link><pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/</guid><description>&lt;p>In this post I’ll walk through how my Hugo-based blog, powered by the Blowfish theme, is automatically built and deployed to Cloudflare Pages every time I push to &lt;code>main&lt;/code>.&lt;/p>
+&lt;p>I spun up both a &lt;strong>multiplayer lobby service&lt;/strong> and a &lt;strong>dedicated game-server fleet&lt;/strong> to measure cost, latency, and developer friction on each cloud. Here’s what stood out once I put real players on the servers.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/posts/azure-vs-aws-overview/featured.png"/></item><item><title>Minecraft Server on AWS with Discord Bot</title><link>https://hanifnaoh.com/posts/minecraft-server-aws-discord/</link><pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/minecraft-server-aws-discord/</guid><description>&lt;h2 class="relative group">Overview
+&lt;div id="overview" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>In this post, I walk through deploying a Minecraft server using AWS services and creating a Discord bot to manage the server, including commands for user management and notifications.&lt;/p></description></item><item><title>Minecraft Docker</title><link>https://hanifnaoh.com/posts/minecraft-docker/</link><pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/minecraft-docker/</guid><description>&lt;h2 class="relative group">Overview
+&lt;div id="overview" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>In this post, I demonstrate what is docker and how to containerize a Minecraft server using Docker and optimize it for performance and portability.&lt;/p></description></item><item><title>Maintaining Blog Portfolio with Cloudflare and GitHub Actions</title><link>https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/</link><pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/</guid><description>&lt;p>In this post I’ll walk through how my Hugo-based blog, powered by the Blowfish theme, is automatically built and deployed to Cloudflare Pages every time I push to &lt;code>main&lt;/code>.&lt;/p>
 &lt;h2 class="relative group">Architecture at a Glance
 &lt;div id="architecture-at-a-glance" class="anchor">&lt;/div>
 &lt;span
@@ -55,7 +108,40 @@ data-zoom-src="https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actio
 src="https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/hugoblog.png"
 />
 &lt;/figure>
-So since I use static site generator with full control over the HTML, CSS, and JavaScript, even the content management service is handled by hugo with Makrdown language and a flexible shortcode by Blowfish Theme. I can use GitHub Actions to automate the build and deployment process.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/featured.png"/></item><item><title>Marvel Snap - A New Era of Collectible Card Games</title><link>https://hanifnaoh.com/posts/deconstruct-marvel-snap/</link><pubDate>Wed, 24 Jan 2024 22:11:23 +0700</pubDate><guid>https://hanifnaoh.com/posts/deconstruct-marvel-snap/</guid><description>&lt;p>
+So since I use static site generator with full control over the HTML, CSS, and JavaScript, even the content management service is handled by hugo with Makrdown language and a flexible shortcode by Blowfish Theme. I can use GitHub Actions to automate the build and deployment process.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/featured.png"/></item><item><title>Road to 100-Level Parkour Paradise in UEFN Nov 2024</title><link>https://hanifnaoh.com/posts/uefn-parkour-maps-limitations/</link><pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/uefn-parkour-maps-limitations/</guid><description>&lt;p>
+&lt;figure>
+&lt;img
+class="my-0 rounded-md" loading="lazy" decoding="async" fetchpriority="low" alt="UEFN"
+srcset="
+/posts/uefn-parkour-maps-limitations/image_hu_68454c566f37e394.png 330w,
+/posts/uefn-parkour-maps-limitations/image_hu_ea46941e30d1a36e.png 660w,
+/posts/uefn-parkour-maps-limitations/image_hu_209797e1f8fda4f1.png 1280w"
+data-zoom-src="https://hanifnaoh.com/posts/uefn-parkour-maps-limitations/image.png"
+src="https://hanifnaoh.com/posts/uefn-parkour-maps-limitations/image.png"
+/>
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">Why Parkour Paradise in Fortnite?
+&lt;div id="why-parkour-paradise-in-fortnite" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#why-parkour-paradise-in-fortnite" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>
+&lt;figure>
+&lt;img
+class="my-0 rounded-md" loading="lazy" decoding="async" fetchpriority="low" alt="Parkour Paradise"
+srcset="
+/posts/uefn-parkour-maps-limitations/ParkourParadise_hu_1f25ec082daff58d.png 330w,
+/posts/uefn-parkour-maps-limitations/ParkourParadise_hu_64dd13acc145e468.png 660w,
+/posts/uefn-parkour-maps-limitations/ParkourParadise_hu_536dc6ee0d54a7b1.png 1280w"
+data-zoom-src="https://hanifnaoh.com/posts/uefn-parkour-maps-limitations/ParkourParadise.png"
+src="https://hanifnaoh.com/posts/uefn-parkour-maps-limitations/ParkourParadise.png"
+/>
+&lt;/figure>
+&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/posts/uefn-parkour-maps-limitations/featured.png"/></item><item><title>Marvel Snap - A New Era of Collectible Card Games</title><link>https://hanifnaoh.com/posts/deconstruct-marvel-snap/</link><pubDate>Wed, 24 Jan 2024 22:11:23 +0700</pubDate><guid>https://hanifnaoh.com/posts/deconstruct-marvel-snap/</guid><description>&lt;p>
 &lt;figure>
 &lt;img
 class="my-0 rounded-md" loading="lazy" decoding="async" fetchpriority="low" alt="Marvel Snap"

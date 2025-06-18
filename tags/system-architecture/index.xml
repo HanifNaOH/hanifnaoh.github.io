@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>System Architecture on Hanif012</title><link>https://hanifnaoh.com/tags/system-architecture/</link><description>Recent content in System Architecture on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2025 HanifNaOH</copyright><lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifnaoh.com/tags/system-architecture/index.xml" rel="self" type="application/rss+xml"/><item><title>Godot vs Unity vs Unreal: A Technical Designer's Analysis</title><link>https://hanifnaoh.com/posts/godot-vs-unity-unreal/</link><pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/godot-vs-unity-unreal/</guid><description>&lt;p>In this post, I compare Godot, Unity, and Unreal Engine across features, performance, and community support to help you choose the right engine for your next project.&lt;/p>
+&lt;h2 class="relative group">Features
+&lt;div id="features" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#features" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;h3 class="relative group">Godot
+&lt;div id="godot" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#godot" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h3>
+&lt;p>
+&lt;figure>
+&lt;img
+class="my-0 rounded-md" loading="lazy" decoding="async" fetchpriority="low" alt="godot"
+srcset="
+/posts/godot-vs-unity-unreal/godot_hu_9108ed7a1c86235a.png 330w,
+/posts/godot-vs-unity-unreal/godot_hu_306af4e69f5a17e5.png 660w,
+/posts/godot-vs-unity-unreal/godot_hu_ec79f0964b60e1bc.png 1280w"
+data-zoom-src="https://hanifnaoh.com/posts/godot-vs-unity-unreal/godot.png"
+src="https://hanifnaoh.com/posts/godot-vs-unity-unreal/godot.png"
+/>
+&lt;/figure>
+Godot’s node-based scene system and integrated GDScript make it incredibly approachable. You can also script in C#, C++, or VisualScript, and everything lives as files on disk—perfect for version control. Its MIT license means zero royalties or subscriptions.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/posts/godot-vs-unity-unreal/featured.png"/></item></channel></rss>
