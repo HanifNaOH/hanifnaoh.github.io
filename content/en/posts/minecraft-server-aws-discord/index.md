@@ -1,7 +1,8 @@
 ---
  title: "Minecraft Server on AWS with Discord Bot"
  date: 2025-02-15
- draft: true
+ draft: false
+ tags: ["Minecraft", "AWS", "Discord"]
  description: "Guide to setting up a Minecraft server on AWS and integrating a Discord bot for management."
 ---
 

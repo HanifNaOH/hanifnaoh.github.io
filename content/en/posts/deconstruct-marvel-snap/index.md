@@ -2,6 +2,7 @@
 title: "Marvel Snap - A New Era of Collectible Card Games"
 date: 2024-01-24T22:11:23+07:00
 categories: ["Deconstruct Series"]
+tags: ["card games", "Marvel", "game review"]
 draft: false
 description: "It's probably too late for me to deconstruct Marvel Snap since the game is classified as high end that take about 4gigs storage both mobile and desktop. So let's break it down what is Marvel Snap."
 ---

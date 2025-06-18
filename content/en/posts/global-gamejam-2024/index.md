@@ -2,6 +2,7 @@
  title: "Global GameJam 2024"
  date: 2024-02-20
  draft: true
+ tags: ["game jam", "game development", "event"]
  description: "Recap of my experience building a game during Global GameJam 2024."
 ---
 

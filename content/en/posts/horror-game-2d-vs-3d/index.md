@@ -1,9 +1,9 @@
 ---
- title: "2D Horror Game vs 3D Horror Game"
+ title: "2D Horror Game vs 3D Horror Game: A Designer's Perspective"
  date: 2025-05-01
- draft: true
- tags: ["game development", "horror games", "2D games", "3D games"]
- description: "Comparing development challenges between 2D and 3D horror games."
+ draft: false
+ tags: ["game design", "horror games", "technical design"]
+ description: "A technical and system design analysis comparing 2D and 3D horror game development from a game designer's perspective."
 ---
 
 

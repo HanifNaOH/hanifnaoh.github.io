@@ -2,6 +2,7 @@
 title: "Hello World!"
 date: 2023-12-28T21:24:06+07:00
 draft: false
+tags: ["introduction", "personal", "blog"]
 description: ""
 ---
 

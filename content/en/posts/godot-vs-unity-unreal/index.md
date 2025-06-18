@@ -1,8 +1,9 @@
 ---
-title: "Godot vs Unity vs Unreal"
+title: "Godot vs Unity vs Unreal: A Technical Designer's Analysis"
 date: 2025-06-05
-draft: true
-description: "A comparative look at three major game engines: Godot, Unity, and Unreal."
+draft: false
+tags: ["game engines", "technical design", "system architecture"]
+description: "A deep technical comparison of three major game engines from a technical designer's perspective, focusing on system design implications and workflow efficiency."
 ---
 
 In this post, I compare Godot, Unity, and Unreal Engine across features, performance, and community support to help you choose the right engine for your next project.

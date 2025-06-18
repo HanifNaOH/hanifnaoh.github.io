@@ -1,7 +1,8 @@
 ---
 title: "Road to 100-Level Parkour Paradise in UEFN Nov 2024"
 date: 2024-11-15
-draft: true
+draft: false
+tags: ["Fortnite", "UEFN", "game design"]
 description: "A dev-blog documenting my attempt to recreate the spirit of Minecraft’s Parkour Paradise inside Fortnite using Unreal Editor for Fortnite (UEFN)."
 ---
 
@@ -82,3 +83,4 @@ I’m blocking out levels in groups of 10 to iterate faster, then art-pass once 
 - **Collab**: 3D artists or Verse scripters looking for a side project are welcome—let’s polish this to a shine!
 
 Stay tuned—next dev-blog will cover ice mechanics and the first public stress test. 🚀
+

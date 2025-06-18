@@ -2,6 +2,7 @@
 title: "Stardew Valley - The Pioneer of Cozy Farming Genre"
 date: 2023-12-27T21:36:25+07:00
 categories: ["Deconstruct Series"]
+tags: ["farming sim", "indie games", "game review"]
 draft: false
 description: "It's probably too late for me to deconstruct Stardew Valley since the game is already released both mobile, desktop, and console. So let's break it down what is Stardew Valley and why it's one of the pioneer of the current trending cozy farming genre."
 ---

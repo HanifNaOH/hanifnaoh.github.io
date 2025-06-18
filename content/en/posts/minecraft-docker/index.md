@@ -1,7 +1,8 @@
 ---
  title: "Minecraft Docker"
  date: 2025-01-20
- draft: true
+ draft: false
+ tags: ["Minecraft", "Docker", "server"]
  description: "Building and running a Minecraft server using Docker containers."
 ---
 

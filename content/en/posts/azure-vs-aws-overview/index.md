@@ -2,7 +2,7 @@
 title: "Azure vs AWS for Game Developers"
 date: 2025-03-10
 draft: false
-tags: ["azure", "aws", "cloud", "games", "multiplayer", "comparison"]
+tags: ["cloud", "games", "multiplayer"]
 description: "A 2025 game-dev-centric comparison of Azure and AWS—services, latency, pricing quirks, and when each one wins."
 ---
 

@@ -2,6 +2,7 @@
  title: "Fetching Country Data with API"
  date: 2024-10-10
  draft: true
+ tags: ["API", "JavaScript", "web development"]
  description: "Using REST APIs to fetch and display country data in web applications."
 ---
 

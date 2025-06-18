@@ -2,6 +2,7 @@
  title: "Maintaining Blog Portfolio with Cloudflare and GitHub Actions"
  date: 2024-12-10
  draft: false
+ tags: ["Cloudflare", "GitHub Actions", "Hugo"]
  description: "Automating deployment and performance optimization of my blog portfolio using Cloudflare and GitHub Actions."
 ---
 

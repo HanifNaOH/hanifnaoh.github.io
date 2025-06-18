@@ -2,6 +2,7 @@
  title: "AWS with Perforce"
  date: 2025-01-10
  draft: true
+ tags: ["AWS", "Perforce", "devops"]
  description: "Integrating AWS cloud services with Perforce version control."
 ---
 
