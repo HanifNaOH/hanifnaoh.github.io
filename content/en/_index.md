@@ -1,10 +1,10 @@
 ---
 title: "Hanif Naoh"
-description: "Game developer, programmer, and creative thinker"
+description: "Transforming concepts into interactive adventures – designer, coder, and problem solver."
 heroStyle: "background"
 showBreadcrumbs: false
 ---
 
-I'm Hanif, a game developer and programmer passionate about creating interactive experiences.
+I'm Hanif, a game designer and sometimes programmer passionate about creating interactive experiences.
 
 Check out my [projects](/projects) and [blog posts](/posts) to see what I've been working on.
