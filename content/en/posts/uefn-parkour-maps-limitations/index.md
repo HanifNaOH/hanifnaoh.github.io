@@ -6,7 +6,7 @@ tags: ["Fortnite", "UEFN", "game design"]
 description: "A dev-blog documenting my attempt to recreate the spirit of Minecraft’s Parkour Paradise inside Fortnite using Unreal Editor for Fortnite (UEFN)."
 ---
 
-![UEFN](image.png)
+![UEFN](image-frot.png)
 
 ## Why Parkour Paradise in Fortnite?
 
@@ -37,8 +37,6 @@ I’m blocking out levels in groups of 10 to iterate faster, then art-pass once 
 4. **Performance sweep** on Switch and last-gen consoles; trim materials or swap meshes as needed.  
 5. **Push** to Creative Sandbox for public playtest → collect analytics → repeat.
 
-> **Tip:** Keep the default player character capsule for scale reference. Swapping to custom skins too early threw off jump distances more than once.
-
 ---
 
 ## Current UEFN Pain Points (May 2025)
@@ -63,7 +61,7 @@ I’m blocking out levels in groups of 10 to iterate faster, then art-pass once 
 - **Most-failed jump:** Level 8 triple corner jump (32 % fail rate)  
 - **Bugs:** Vent momentum boost sometimes stacks (investigating)
 
-![Grey-box canyon theme](images/week5_greybox.png)
+![Grey-box canyon theme](image-prog.png)
 
 ---
 
@@ -83,4 +81,3 @@ I’m blocking out levels in groups of 10 to iterate faster, then art-pass once 
 - **Collab**: 3D artists or Verse scripters looking for a side project are welcome—let’s polish this to a shine!
 
 Stay tuned—next dev-blog will cover ice mechanics and the first public stress test. 🚀
-
