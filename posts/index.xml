@@ -27,7 +27,7 @@ data-zoom-src="https://hanifnaoh.com/posts/godot-vs-unity-unreal/godot.png"
 src="https://hanifnaoh.com/posts/godot-vs-unity-unreal/godot.png"
 />
 &lt;/figure>
-Godot’s node-based scene system and integrated GDScript make it incredibly approachable. You can also script in C#, C++, or VisualScript, and everything lives as files on disk—perfect for version control. Its MIT license means zero royalties or subscriptions.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/posts/godot-vs-unity-unreal/featured.png"/></item><item><title>2D Horror Game vs 3D Horror Game: A Designer's Perspective</title><link>https://hanifnaoh.com/posts/horror-game-2d-vs-3d/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/horror-game-2d-vs-3d/</guid><description>&lt;h2 class="relative group">Overview
+Godot’s node-based scene system and integrated GDScript make it incredibly approachable. You can also script in C#, C++, or VisualScript. Its MIT license means zero royalties or subscriptions.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/posts/godot-vs-unity-unreal/featured.png"/></item><item><title>2D Horror Game vs 3D Horror Game: A Designer's Perspective</title><link>https://hanifnaoh.com/posts/horror-game-2d-vs-3d/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/horror-game-2d-vs-3d/</guid><description>&lt;h2 class="relative group">Overview
 &lt;div id="overview" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
@@ -35,15 +35,7 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>In this post, I&amp;rsquo;ve developed a 2D horror game and a 3D horror game with my colleagues, and I want to share my experiences with both. I&amp;rsquo;ll discuss the unique challenges and advantages we encountered during development, as well as how each approach impacted player engagement and immersion.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/posts/horror-game-2d-vs-3d/featured.png"/></item><item><title>Azure vs AWS for Game Developers</title><link>https://hanifnaoh.com/posts/azure-vs-aws-overview/</link><pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/azure-vs-aws-overview/</guid><description>&lt;h2 class="relative group">Why compare Azure and AWS for games?
-&lt;div id="why-compare-azure-and-aws-for-games" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#why-compare-azure-and-aws-for-games" aria-label="Anchor">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>I spun up both a &lt;strong>multiplayer lobby service&lt;/strong> and a &lt;strong>dedicated game-server fleet&lt;/strong> to measure cost, latency, and developer friction on each cloud. Here’s what stood out once I put real players on the servers.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/posts/azure-vs-aws-overview/featured.png"/></item><item><title>Minecraft Server on AWS with Discord Bot</title><link>https://hanifnaoh.com/posts/minecraft-server-aws-discord/</link><pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/minecraft-server-aws-discord/</guid><description>&lt;h2 class="relative group">Overview
+&lt;p>In this post, I&amp;rsquo;ve developed a 2D horror game and a 3D horror game with my colleagues, and I want to share my experiences with both. I&amp;rsquo;ll discuss the unique challenges and advantages we encountered during development, as well as how each approach impacted player engagement and immersion.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/posts/horror-game-2d-vs-3d/featured.png"/></item><item><title>Minecraft Server on AWS with Discord Bot</title><link>https://hanifnaoh.com/posts/minecraft-server-aws-discord/</link><pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/minecraft-server-aws-discord/</guid><description>&lt;h2 class="relative group">Overview
 &lt;div id="overview" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
