@@ -47,7 +47,7 @@ I’m blocking out levels in groups of 10 to iterate faster, then art-pass once 
 |------------|-----------------------------------|-----------------------|
 | **Rapid, unstable feature updates** | Weekly client patches can change the editor UI or Verse APIs overnight, forcing unplanned re-builds. | Keep a frozen branch in source control; wait 48 h after each release before upgrading your main dev build. |
 | **Updates sometimes break working content** | Projects that opened fine yesterday may throw Verse compile errors or fail to load checkpoints after a hot-fix. | Pin every milestone to a tagged Git commit; test new versions in a scratch copy and roll back if critical devices fail. |
-| **Metaverse-first roadmap** | Epic’s priority list skews toward big, shared-world features—smaller QoL requests (e.g., finer timer controls) slide down the queue. | Track the Trello roadmap and design levels around what already exists; up-vote community tickets to raise visibility. |
+| **Metaverse-first roadmap** | Epic’s priority list skews toward big, shared world features—smaller QoL requests (e.g., finer timer controls) slide down the queue. | Track the Trello roadmap and design levels around what already exists; up-vote community tickets to raise visibility. |
 | **Less-diverse player base than Roblox** | Fortnite’s audience is ~60 % ages 18–24, whereas Roblox remains majority under-16; feedback may tilt toward shooter veterans, not younger casuals. | Recruit broader testers via Discord servers, TikTok, and school esports clubs; consider cross-posting demos on Roblox to reach younger players. |
 | **High-end PC strongly recommended** | UEFN editing is sluggish on laptops without a discrete GPU and <16 GB RAM, slowing iteration on large obstacle courses. | Develop on a desktop with ≥16 GB RAM + mid-range GPU, or stream UEFN remotely from a cloud workstation; keep grey-box assets lightweight until final art pass. |
 
@@ -78,6 +78,6 @@ I’m blocking out levels in groups of 10 to iterate faster, then art-pass once 
 
 - **Playtest**: Want early access? DM me on Bsky for a private island code.  
 - **Feedback**: Join the Discord and drop your checkpoint completion times.  
-- **Collab**: 3D artists or Verse scripters looking for a side project are welcome—let’s polish this to a shine!
+- **Collab**: 3D artists or Verse scripters looking for a side project are welcome, let’s polish this to a shine!
 
-Stay tuned—next dev-blog will cover ice mechanics and the first public stress test. 🚀
+Stay tuned for the next dev-blog covering ice mechanics and the first public stress test. 🚀
