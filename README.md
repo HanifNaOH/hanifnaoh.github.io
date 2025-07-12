@@ -12,4 +12,4 @@ hugo new posts/name-of-my-post/index.md
 
 ## Host Image
 
-<www.imgchest.com>
+([imgchest.com](https://imgchest.com))
