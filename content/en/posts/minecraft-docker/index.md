@@ -33,4 +33,3 @@ Its a great video that explains the basics of Docker and how to set up a Minecra
 Here is the link that i used to follow along:
 
 {{< github repo="itzg/docker-minecraft-server" showThumbnail=true >}}
-
