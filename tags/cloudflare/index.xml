@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cloudflare on Hanif012</title><link>https://hanifnaoh.com/tags/cloudflare/</link><description>Recent content in Cloudflare on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2025 HanifNaOH</copyright><lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifnaoh.com/tags/cloudflare/index.xml" rel="self" type="application/rss+xml"/><item><title>Maintaining Blog Portfolio with Cloudflare and GitHub Actions</title><link>https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/</link><pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/</guid><description>&lt;p>In this post I’ll walk through how my Hugo-based blog, powered by the Blowfish theme, is automatically built and deployed to Cloudflare Pages every time I push to &lt;code>main&lt;/code>.&lt;/p>
-&lt;h2 class="relative group">Architecture at a Glance
-&lt;div id="architecture-at-a-glance" class="anchor">&lt;/div>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cloudflare on Hanif012</title><link>https://hanifnaoh.com/tags/cloudflare/</link><description>Recent content in Cloudflare on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2025 HanifNaOH</copyright><lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifnaoh.com/tags/cloudflare/index.xml" rel="self" type="application/rss+xml"/><item><title>Maintaining Blog Portfolio with Cloudflare and GitHub Actions</title><link>https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/</link><pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/</guid><description>&lt;p&gt;In this post I’ll walk through how my Hugo-based blog, powered by the Blowfish theme, is automatically built and deployed to Cloudflare Pages every time I push to &lt;code&gt;main&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 class="relative group"&gt;Architecture at a Glance
+&lt;div id="architecture-at-a-glance" class="anchor"&gt;&lt;/div&gt;
 &lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#architecture-at-a-glance" aria-label="Anchor">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;div class="mermaid" align="center">
-&lt;pre>
+style="text-decoration-line: none !important;" href="#architecture-at-a-glance" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;div class="mermaid" align="center"&gt;
+&lt;pre&gt;
 %%{ init { "theme": "default", "themeVariables": { "textColor": "#ffffff" } } }%%
 architecture-beta
 group site_pipeline(cloud)[Static Site Pipeline]
@@ -16,27 +16,27 @@ service markdown(logos:markdown)[Markdown Content] in site_pipeline
 service hugo(devicon:hugo)[Hugo Static Builder] in site_pipeline
 service github(logos:github-actions)[GitHub Actions CI] in site_pipeline
 service cloudflare(devicon:cloudflare)[Cloudflare CDN] in site_pipeline
-markdown:R --> L:hugo
-hugo:R --> L:github
-github:R --> L:cloudflare
-&lt;/pre>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;strong>Static site generator:&lt;/strong> Hugo + Blowfish theme&lt;/li>
-&lt;li>&lt;strong>Source control:&lt;/strong> GitHub&lt;/li>
-&lt;li>&lt;strong>CI/CD:&lt;/strong> GitHub Actions&lt;/li>
-&lt;li>&lt;strong>Hosting &amp;amp; DNS:&lt;/strong> Cloudflare Pages + a custom &lt;em>.com&lt;/em> domain registered through Cloudflare&lt;/li>
-&lt;/ul>
-&lt;h2 class="relative group">GitHub Actions Workflow
-&lt;div id="github-actions-workflow" class="anchor">&lt;/div>
+markdown:R --&gt; L:hugo
+hugo:R --&gt; L:github
+github:R --&gt; L:cloudflare
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Static site generator:&lt;/strong&gt; Hugo + Blowfish theme&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Source control:&lt;/strong&gt; GitHub&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CI/CD:&lt;/strong&gt; GitHub Actions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hosting &amp;amp; DNS:&lt;/strong&gt; Cloudflare Pages + a custom &lt;em&gt;.com&lt;/em&gt; domain registered through Cloudflare&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 class="relative group"&gt;GitHub Actions Workflow
+&lt;div id="github-actions-workflow" class="anchor"&gt;&lt;/div&gt;
 &lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#github-actions-workflow" aria-label="Anchor">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
+style="text-decoration-line: none !important;" href="#github-actions-workflow" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;
+&lt;figure&gt;
 &lt;img
 class="my-0 rounded-md" loading="lazy" decoding="async" fetchpriority="low" alt="My Hugo blog screenshot"
 srcset="
@@ -45,6 +45,6 @@ srcset="
 /posts/blogportfolio-cloudflare-github-actions/hugoblog_hu_17912c3a2dc624fa.png 1280w"
 data-zoom-src="https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/hugoblog.png"
 src="https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/hugoblog.png"
-/>
-&lt;/figure>
-So since I use static site generator with full control over the HTML, CSS, and JavaScript, even the content management service is handled by hugo with Makrdown language and a flexible shortcode by Blowfish Theme. I can use GitHub Actions to automate the build and deployment process.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/featured.png"/></item></channel></rss>
+/&gt;
+&lt;/figure&gt;
+So since I use static site generator with full control over the HTML, CSS, and JavaScript, even the content management service is handled by hugo with Makrdown language and a flexible shortcode by Blowfish Theme. I can use GitHub Actions to automate the build and deployment process.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/featured.png"/></item></channel></rss>
