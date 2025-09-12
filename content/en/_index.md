@@ -1,5 +1,5 @@
 ---
-title: "Hanif Naoh"
+title: "Fathi Naufal Hanif"
 description: "Transforming concepts into interactive adventures – designer, coder, and problem solver."
 heroStyle: "background"
 showBreadcrumbs: false
