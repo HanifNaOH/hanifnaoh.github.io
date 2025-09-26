@@ -1,4 +1,28 @@
 {{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+
+<!-- Custom styles for sticky sidebar -->
+<style>
+.sidebar-sticky {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+}
+.sidebar-sticky::-webkit-scrollbar {
+    width: 4px;
+}
+.sidebar-sticky::-webkit-scrollbar-track {
+    background: transparent;
+}
+.sidebar-sticky::-webkit-scrollbar-thumb {
+    background: rgba(156, 163, 175, 0.3);
+    border-radius: 2px;
+}
+.sidebar-sticky::-webkit-scrollbar-thumb:hover {
+    background: rgba(156, 163, 175, 0.5);
+}
+</style>
+
 <div class="max-w-full">
     <!-- Background image -->
     <div class="fixed inset-x-0 top-0" style="z-index:-10">
@@ -20,8 +44,8 @@
     <div class="mx-auto max-w-7xl flex flex-col lg:flex-row gap-8 px-8 py-16">
         
         <!-- Left Sidebar -->
-        <aside class="lg:w-1/3 lg:sticky lg:top-16 lg:h-fit">
-            <div class="bg-white/80 dark:bg-neutral-800/80 backdrop-blur-sm rounded-lg p-8 shadow-lg">
+        <aside class="lg:w-1/3 sidebar-sticky lg:self-start">
+            <div class="bg-white/80 dark:bg-neutral-800/80 backdrop-blur-sm rounded-lg p-8 shadow-lg h-full overflow-y-auto">
                 <article class="prose dark:prose-invert text-center">
                     {{ with .Site.Params.Author.image }}
                         {{ $authorImage := "" }}
@@ -68,6 +92,9 @@
         <!-- Main Content -->
         <main class="lg:w-2/3 space-y-8">
             <section>
+                {{ partial "highlights-article.html" . }}
+            </section>
+            <section>
                 {{ partial "featured.html" . }}
             </section>
             <section>
@@ -86,5 +113,3 @@
     });
 </script>
 {{ end }}
-
-

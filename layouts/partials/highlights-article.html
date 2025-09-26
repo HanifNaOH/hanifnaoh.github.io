@@ -1,0 +1,140 @@
+{{ $highlightArticles := 3 }}
+{{ $showMoreLinkDest := "/posts/" }}
+{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+{{ if index .Site.Params.homepage "showHighlightItems" }}
+{{ $highlightArticles = .Site.Params.homepage.showHighlightItems }}
+{{ end }}
+
+{{ if .Site.Params.homepage.showHighlights | default true }}
+<h2 class="mt-8 text-2xl font-extrabold mb-10">
+    {{ with .Site.Params.homepage.highlightTitle }}
+        {{ . | markdownify | emojify }}
+    {{ else }}
+        {{ i18n "shortcode.highlights" | default "🌟 Highlighted Articles" | emojify }}
+    {{ end }}
+</h2>
+
+<!-- Get highlighted pages -->
+{{ $highlightedPages := slice }}
+
+<!-- Get pages marked as highlights -->
+{{ range .Site.RegularPages }}
+    {{ if .Params.highlight | default false }}
+        {{ $highlightedPages = $highlightedPages | append . }}
+    {{ end }}
+{{ end }}
+
+<!-- If no specific highlighted pages, get recent featured pages -->
+{{ if eq (len $highlightedPages) 0 }}
+    {{ $highlightedPages = first $highlightArticles (where .Site.RegularPages "Params.featured" true) }}
+{{ end }}
+
+<!-- If still no pages, get most recent pages -->
+{{ if eq (len $highlightedPages) 0 }}
+    {{ $highlightedPages = first $highlightArticles (.Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections)).Pages }}
+{{ end }}
+
+{{ if .Site.Params.homepage.highlightCardView | default true }}
+<!-- Card View using theme's structure -->
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+    {{ range first $highlightArticles $highlightedPages }}
+        {{ with .Params.externalUrl }}
+        <a href="{{ . }}" target="_blank" rel="external" class="min-w-full">
+        {{ else }}
+        <a href="{{ .RelPermalink }}" class="min-w-full">
+        {{ end }}
+            <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+                <!-- Highlight badge -->
+                {{ if .Params.highlight }}
+                <span class="absolute top-0 right-0 m-2 z-10">
+                    <span class="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        ✨
+                    </span>
+                </span>
+                {{ end }}
+
+                <!-- Featured image handling (same as theme) -->
+                {{- with $.Params.images -}}
+                {{- range first 6 . }}
+                <meta property="og:image" content="{{ . | absURL }}" />{{ end -}}
+                {{- else -}}
+                {{- $images := $.Resources.ByType "image" -}}
+                {{- $featured := $images.GetMatch "*feature*" -}}
+                {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
+                {{ if and .Params.featureimage (not $featured) }}
+                {{- $url:= .Params.featureimage -}}
+                {{ $featured = resources.GetRemote $url }}
+                {{ end }}
+                {{- if not $featured }}{{ with .Site.Params.defaultFeaturedImage }}{{ $featured = resources.Get . }}{{ end }}{{ end -}}
+                {{ if .Params.hideFeatureImage }}{{ $featured = false }}{{ end }}
+                {{- with $featured -}}
+                {{ if or $disableImageOptimization (strings.HasSuffix $featured ".svg")}}
+                    {{ with . }}
+                    <div class="w-full thumbnail_card nozoom" style="background-image:url('{{ .RelPermalink }}');"></div>
+                    {{ end }}
+                {{ else }}
+                    {{ with .Resize "600x" }}
+                    <div class="w-full thumbnail_card nozoom" style="background-image:url('{{ .RelPermalink }}');"></div>
+                    {{ end }}
+                {{ end }}
+                {{- else -}}
+                {{- with $.Site.Params.images }}
+                <meta property="og:image" content="{{ index . 0 | absURL }}" />{{ end -}}
+                {{- end -}}
+                {{- end -}}
+
+                <div class="px-6 py-4">
+                    {{ with .Params.externalUrl }}
+                    <div>
+                        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+                            {{ $.Title | emojify }}
+                            <span class="text-xs align-top cursor-default text-neutral-400 dark:text-neutral-500">
+                                <span class="rtl:hidden">&#8599;</span>
+                                <span class="ltr:hidden">&#8598;</span>
+                            </span>
+                        </div>
+                    </div>
+                    {{ else }}
+                    <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+                        {{ .Title | emojify }}
+                    </div>
+                    {{ end }}
+
+                    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+                        {{ partial "article-meta/basic.html" . }}
+                    </div>
+
+                    {{ if .Params.showSummary | default (.Site.Params.list.showSummary | default false) }}
+                    <div class="py-1 prose dark:prose-invert">
+                        {{ .Summary | plainify }}
+                    </div>
+                    {{ end }}
+                </div>
+                <div class="px-6 pt-4 pb-2"></div>
+            </div>
+        </a>
+    {{ end }}
+</section>
+
+{{ else }}
+<!-- List View using theme's structure -->
+<section class="space-y-10 w-full">
+    {{ range first $highlightArticles $highlightedPages }}
+        {{ partial "article-link/simple.html" . }}
+    {{ end }}
+</section>
+{{ end }}
+
+{{ if .Site.Params.homepage.showHighlightMoreLink | default false }}
+{{ if index .Site.Params.homepage "showHighlightItems" }}
+{{ $showMoreLinkDest = .Site.Params.homepage.showHighlightMoreLinkDest }}
+{{ end }}
+<div class="mt-10 flex justify-center">
+    <a href="{{ $showMoreLinkDest }}">
+        <button class="bg-transparent hover:text-primary-500 prose dark:prose-invert font-semibold hover:text-white py-2 px-4 border border-primary-500 hover:border-transparent rounded">
+            {{ i18n "recent.show_more" | default "Show More" | markdownify }}
+        </button>
+    </a>
+</div>
+{{ end }}
+{{ end }}
