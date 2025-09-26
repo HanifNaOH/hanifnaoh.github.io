@@ -1,6 +1,6 @@
 ---
 title: "Heavy GIF Performance Test 01"
-date: 2025-09-26T11:01:00Z
+date: 2025-09-26T10:05:00Z
 draft: false
 description: "Testing Hugo performance with heavy GIF thumbnail #01 - 7.57MB file"
 tags: ["performance", "gif", "thumbnail", "test", "heavy"]

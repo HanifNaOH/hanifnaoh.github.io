@@ -1,6 +1,6 @@
 ---
 title: "Heavy GIF Performance Test 03"
-date: 2025-09-26T13:09:00Z
+date: 2025-09-26T12:15:00Z
 draft: false
 description: "Testing Hugo performance with heavy GIF thumbnail #03 - Multi-MB file test"
 tags: ["performance", "gif", "thumbnail", "test", "heavy"]
@@ -33,3 +33,4 @@ This article provides realistic content for testing purposes. The heavy GIF thum
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
 
 Performance testing with heavy media files is crucial for understanding real-world website behavior under load.
+
