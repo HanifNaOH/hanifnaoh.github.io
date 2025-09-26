@@ -1,7 +1,7 @@
 ---
 title: "GIF Thumbnail Test"
 date: 2025-09-26T10:00:00Z
-draft: true
+draft: false
 description: "Testing GIF thumbnail functionality in Blowfish theme"
 tags: ["test", "gif", "thumbnail"]
 categories: ["testing"]
