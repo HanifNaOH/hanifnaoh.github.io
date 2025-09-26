@@ -35,7 +35,7 @@ showAppearanceSwitcher = false
 showScrollToTop = true
 
 [homepage]
-layout = "background" # valid options: background, cards, list
+layout = "custom" # valid options: background, cards, list
 homepageImage = "img/cube.jpg"
 showRecent = true
 showRecentItems = 6
