@@ -1,13 +1,29 @@
 {{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
 
-<!-- Custom styles for sticky sidebar -->
+<!-- Custom styles for responsive sticky sidebar -->
 <style>
 .sidebar-sticky {
     position: sticky;
     top: 0;
-    height: 100vh;
     overflow-y: auto;
 }
+
+/* Mobile and tablet - non-sticky, auto height */
+@media (max-width: 1023px) {
+    .sidebar-sticky {
+        position: static;
+        height: auto;
+        max-height: none;
+    }
+}
+
+/* Desktop - sticky with full height */
+@media (min-width: 1024px) {
+    .sidebar-sticky {
+        height: 100vh;
+    }
+}
+
 .sidebar-sticky::-webkit-scrollbar {
     width: 4px;
 }
@@ -41,12 +57,15 @@
     </div>
 
     <!-- Main layout container with sidebar and content -->
-    <div class="mx-auto max-w-7xl flex flex-col lg:flex-row gap-8 px-8 py-16">
+    <div class="w-full flex flex-col lg:flex-row gap-8 lg:gap-24 px-4 lg:px-8 py-8 lg:py-20">
         
-        <!-- Left Sidebar -->
-        <aside class="lg:w-1/3 sidebar-sticky lg:self-start">
-            <div class="bg-white/80 dark:bg-neutral-800/80 backdrop-blur-sm rounded-lg p-8 shadow-lg h-full overflow-y-auto">
-                <article class="prose dark:prose-invert text-center">
+        <!-- Left Sidebar Panel -->
+        <aside class="w-full lg:w-auto sidebar-sticky lg:self-start mb-8 lg:mb-0">
+            <div class="bg-white/10 dark:bg-neutral-800/10 backdrop-blur-xl rounded-2xl p-6 lg:p-8 shadow-2xl overflow-y-auto mx-4 lg:mx-0">
+                <!-- Glass overlay for extra depth -->
+                <div class="absolute inset-0 bg-gradient-to-br from-white/20 via-transparent to-transparent dark:from-neutral-400/10 dark:via-transparent dark:to-transparent rounded-2xl -z-10"></div>
+                
+                <article class="prose dark:prose-invert text-center relative z-10">
                     {{ with .Site.Params.Author.image }}
                         {{ $authorImage := "" }}
                         {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
@@ -58,24 +77,24 @@
                             {{ if not $disableImageOptimization }}
                                 {{ $authorImage = $authorImage.Fill (print "288x288 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
                             {{ end }}
-                            <img class="mb-2 rounded-full h-36 w-36 mx-auto" width="144" height="144"
+                            <img class="mb-4 rounded-full h-36 w-36 mx-auto border-4 border-white/30 dark:border-neutral-600/40 shadow-xl" width="144" height="144"
                                 alt="{{ $.Site.Params.Author.name | default " Author" }}" src="{{ $authorImage.RelPermalink }}" />
                         {{ end }}
                     {{ end }}
-                    <h1 class="mb-2 text-4xl font-extrabold text-neutral-800 dark:text-neutral-200">
+                    <h1 class="mb-3 text-3xl font-extrabold text-neutral-800 dark:text-neutral-100 drop-shadow-sm">
                         {{ .Site.Params.Author.name | default .Site.Title }}
                     </h1>
                     {{ with .Site.Params.Author.headline }}
-                    <h2 class="mt-0 mb-0 text-xl text-neutral-500 dark:text-neutral-400">
+                    <h2 class="mt-0 mb-6 text-lg text-neutral-600 dark:text-neutral-200">
                         {{ . | markdownify | emojify }}
                     </h2>
                     {{ end }}
-                    <div class="mt-3 mb-10 text-2xl">
+                    <div class="mt-4 mb-8 text-2xl">
                         {{ with .Site.Params.Author.links }}
-                        <div class="flex flex-wrap justify-center">
+                        <div class="flex flex-wrap justify-center gap-3">
                             {{ range $links := . }}
                             {{ range $name, $url := $links }}
-                            <a class="px-1 hover:text-primary-400 text-primary-800 dark:text-primary-200" href="{{ $url }}" target="_blank"
+                            <a class="px-3 py-2 hover:text-primary-400 text-primary-700 dark:text-primary-200 transition-all duration-300 hover:scale-110 hover:bg-white/20 dark:hover:bg-neutral-400/20 rounded-full" href="{{ $url }}" target="_blank"
                                 aria-label="{{ $name | title }}" rel="me noopener noreferrer">{{ partial
                                 "icon.html" $name }}
                             </a>
@@ -84,22 +103,29 @@
                         </div>
                         {{ end }}
                     </div>
-                    <section class="prose dark:prose-invert">{{ .Content | emojify }}</section>
+                    <section class="prose dark:prose-invert prose-sm text-left max-w-none text-neutral-700 dark:text-neutral-200">{{ .Content | emojify }}</section>
                 </article>
             </div>
         </aside>
 
-        <!-- Main Content -->
-        <main class="lg:w-2/3 space-y-8">
-            <section>
-                {{ partial "highlights-article.html" . }}
-            </section>
-            <section>
-                {{ partial "featured.html" . }}
-            </section>
-            <section>
-                {{ partial "recent-articles/main.html" . }}
-            </section>
+        <!-- Main Content Panel -->
+        <main class="w-full lg:flex-1">
+            <div class="bg-white/5 dark:bg-neutral-800/5 backdrop-blur-2xl rounded-2xl p-6 lg:p-8 shadow-2xl space-y-8 lg:space-y-16 mx-4 lg:mx-0">
+                <!-- Glass overlay for main content -->
+                <div class="absolute inset-0 bg-gradient-to-tl from-white/10 via-white/3 to-transparent dark:from-neutral-300/8 dark:via-neutral-400/3 dark:to-transparent rounded-2xl -z-10"></div>
+                
+                <div class="relative z-10 space-y-8 lg:space-y-12">
+                    <section>
+                        {{ partial "highlights-article.html" . }}
+                    </section>
+                    <section>
+                        {{ partial "featured.html" . }}
+                    </section>
+                    <section>
+                        {{ partial "recent-articles/main.html" . }}
+                    </section>
+                </div>
+            </div>
         </main>
     </div>
 </div>
