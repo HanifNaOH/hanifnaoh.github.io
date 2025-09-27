@@ -39,6 +39,9 @@
 }
 </style>
 
+<!-- Load lite-youtube dependencies -->
+{{ partial "youtube-lite-loader.html" . }}
+
 <div class="max-w-full">
     <!-- Background image -->
     <div class="fixed inset-x-0 top-0" style="z-index:-10">
@@ -117,6 +120,17 @@
                 <div class="relative z-10 space-y-8 lg:space-y-12">
                     <section>
                         {{ partial "highlights-article.html" . }}
+                    </section>
+                    <section>
+                        <h2 class="text-2xl font-extrabold mb-6 text-neutral-800 dark:text-neutral-100">
+                            🎬 Video highlight
+                        </h2>
+                        <div class="rounded-xl overflow-hidden shadow-lg">
+                            {{- $id := "CCaJ8ECbfKY" -}}
+                            {{- $label := "Latest Video" -}}
+                            {{- $params := "autoplay=1" -}}
+                            <lite-youtube videoid="{{ $id }}" playlabel="{{ $label }}" params="{{ $params }}"></lite-youtube>
+                        </div>
                     </section>
                     <section>
                         {{ partial "featured.html" . }}
