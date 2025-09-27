@@ -10,7 +10,7 @@
     {{ with .Site.Params.homepage.highlightTitle }}
         {{ . | markdownify | emojify }}
     {{ else }}
-        {{ i18n "shortcode.highlights" | default "🌟 Highlighted Articles" | emojify }}
+        {{ i18n "shortcode.highlights" | default "🌟 Highlighted" | emojify }}
     {{ end }}
 </h2>
 
