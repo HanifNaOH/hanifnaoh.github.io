@@ -36,7 +36,7 @@
 
 {{ if .Site.Params.homepage.highlightCardView | default true }}
 <!-- Card View using theme's structure -->
-<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+<section class="w-full grid gap-4 sm:grid-cols-1 lg:grid-cols-2">
     {{ range first $highlightArticles $highlightedPages }}
         {{ with .Params.externalUrl }}
         <a href="{{ . }}" target="_blank" rel="external" class="min-w-full">
