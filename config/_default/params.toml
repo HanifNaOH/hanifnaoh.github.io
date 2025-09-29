@@ -15,6 +15,7 @@ disableImageOptimization = false
 disableTextInHeader = true
 defaultBackgroundImage = "img/cube.jpg"
 defaultFeaturedImage = "img/logo.jpg"
+hotlinkFeatureImage = true
 # defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
 highlightCurrentMenuArea = true
 smartTOC = true
