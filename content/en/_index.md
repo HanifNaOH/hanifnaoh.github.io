@@ -7,4 +7,4 @@ showBreadcrumbs: false
 
 I'm Hanif, a game designer and sometimes programmer passionate about creating interactive experiences.
 
-Check out my [projects](/projects) and [blog posts](/posts) to see what I've been working on.
+Check out my [projects](/projects) and [blog posts](/posts) to see what I've been working on, here is more detail info at [About Me](/about).

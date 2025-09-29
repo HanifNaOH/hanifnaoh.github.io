@@ -26,18 +26,41 @@ You can browse my [blog posts](/posts/) on this website.
 
 If you want to get in touch, you can reach me via Discord or email. I'm always open to discussing game design, programming, or any other topics related to interactive experiences.
 
-### Tools & Technologies  
+### Tools & Technologies
 
-- **Game Engines**: Unity, Godot, Unreal Engine, Unreal Engine for Fortnite  
-- **Design & Development**:  
-  - **Blender** (Greyboxing, 3D Modeling)  
-  - **Figma** (UI/UX Design, Prototyping)  
-  - **Git** (Version Control)  
-  - **Visual Studio Code** (Coding & Debugging)  
-  - **AWS CDK, Firebase, Posthog** (Cloud Services, Analytics)
-- **Languages**: C#, Python, JavaScript, TypeScript
-- **Game Design**: 
-  - **Level Design** (Greyboxing, Gameplay Mechanics using Unreal Engine for Fortnite)
-  - **Game Mechanics** (Prototyping, Scripting using Figma or just playtesting it)
-  - **UI/UX Design** (Prototyping, User Testing)
-  - **Narrative Design** (Storyboarding, Dialogue Systems using Twine Dialogue System)
+- **Game engines**
+  - Unity — 2D/3D development, C# scripting, Shaders
+  - Godot — lightweight engine, GDScript, GDShaders
+  - Unreal Engine (including UEFN) — Verse, Blueprints, C++
+- **Core tools**
+  - Blender — greyboxing, 3D modeling, asset export
+  - Figma — UI/UX design and prototyping
+  - Twine/Yarnspinner — narrative prototyping and dialogue flows
+- **Development & workflow**
+  - Git — version control, branching and collaboration
+  - Visual Studio Code — editing, debugging, extensions
+  - AWS CDK, Firebase — cloud infrastructure and backend services
+  - PostHog — analytics and event tracking
+- **Languages**
+  - C#, Python, GDScript, TypeScript, C++, Blueprints, Verse
+- **Game design specialties**
+  - Level design — greyboxing, layout, pacing, and player flow (QA testing)
+  - Game mechanics — prototyping, tuning, and iteration (Figma, spreadsheets, or in-engine playtests)
+  - UI/UX — wireframes, interactive prototypes, usability testing
+  - Narrative design — storyboarding and dialogue systems
+
+### Experience
+
+#### Game Designer at [Redacted Interactive by DAL](https://store.steampowered.com/app/3334600/Echoes_Beneath/) (2024 - 2025)
+
+Horror Game – Gameplay & Level Designer
+- I design immersive gameplay systems and atmospheric levels that enhance tension and player engagement. My focus is on puzzle mechanics, pacing, and environmental storytelling to create memorable horror experiences.
+
+Unreleased Game – Lead Game Designer & Project Manager
+- As the team lead, I oversee the creative direction and design vision while managing the project’s roadmap and development process. I coordinate multidisciplinary teams, align design goals with production milestones, and ensure cohesive execution from concept to implementation.
+
+Internal Game Analyst
+- Conduct in-depth monthly analysis of selected games, evaluating performance metrics and market positioning. Present insights to the team and key stakeholders, supporting informed decision-making on design and strategy.
+
+Internal Game Deconstruct
+- Deconstruct games through structured play sessions and critical analysis to identify core mechanics, pacing, and design patterns. Break down gameplay systems, player experience, and engagement loops to extract actionable insights. Provide detailed documentation and presentations that inform internal design discussions and inspire new concepts.
