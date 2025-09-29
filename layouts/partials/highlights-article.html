@@ -77,15 +77,15 @@
                 {{- if not (or $featured $featuredURL) }}{{ with .Site.Params.defaultFeaturedImage }}{{ $featured = resources.Get . }}{{ end }}{{ end -}}
                 {{ if .Params.hideFeatureImage }}{{ $featured = false }}{{ $featuredURL = "" }}{{ end }}
                 {{- if $featuredURL -}}
-                <div class="w-full thumbnail_card nozoom" style="background-image:url('{{ $featuredURL }}');"></div>
+                <div class="w-full thumbnail--card nozoom" style="background-image:url('{{ $featuredURL }}');"></div>
                 {{- else -}}{{- with $featured -}}
                 {{ if or $disableImageOptimization (strings.HasSuffix $featured ".svg")}}
                     {{ with . }}
-                    <div class="w-full thumbnail_card nozoom" style="background-image:url('{{ .RelPermalink }}');"></div>
+                    <div class="w-full thumbnail--card nozoom" style="background-image:url('{{ .RelPermalink }}');"></div>
                     {{ end }}
                 {{ else }}
                     {{ with .Resize "600x" }}
-                    <div class="w-full thumbnail_card nozoom" style="background-image:url('{{ .RelPermalink }}');"></div>
+                    <div class="w-full thumbnail--card nozoom" style="background-image:url('{{ .RelPermalink }}');"></div>
                     {{ end }}
                 {{ end }}
                 {{- end -}}{{- end -}}
