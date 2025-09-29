@@ -61,13 +61,24 @@
                 {{- $images := $.Resources.ByType "image" -}}
                 {{- $featured := $images.GetMatch "*feature*" -}}
                 {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
+                {{- $featuredURL := "" -}}
                 {{ if and .Params.featureimage (not $featured) }}
                 {{- $url:= .Params.featureimage -}}
-                {{ $featured = resources.GetRemote $url }}
+                {{ if or (strings.HasPrefix $url "http:") (strings.HasPrefix $url "https:") }}
+                    {{ if or site.Params.hotlinkFeatureImage .Params.hotlinkFeatureImage }}
+                        {{ $featuredURL = $url }}
+                    {{ else }}
+                        {{ $featured = resources.GetRemote $url }}
+                    {{ end }}
+                {{ else }}
+                    {{ $featured = resources.Get $url }}
                 {{ end }}
-                {{- if not $featured }}{{ with .Site.Params.defaultFeaturedImage }}{{ $featured = resources.Get . }}{{ end }}{{ end -}}
-                {{ if .Params.hideFeatureImage }}{{ $featured = false }}{{ end }}
-                {{- with $featured -}}
+                {{ end }}
+                {{- if not (or $featured $featuredURL) }}{{ with .Site.Params.defaultFeaturedImage }}{{ $featured = resources.Get . }}{{ end }}{{ end -}}
+                {{ if .Params.hideFeatureImage }}{{ $featured = false }}{{ $featuredURL = "" }}{{ end }}
+                {{- if $featuredURL -}}
+                <div class="w-full thumbnail_card nozoom" style="background-image:url('{{ $featuredURL }}');"></div>
+                {{- else -}}{{- with $featured -}}
                 {{ if or $disableImageOptimization (strings.HasSuffix $featured ".svg")}}
                     {{ with . }}
                     <div class="w-full thumbnail_card nozoom" style="background-image:url('{{ .RelPermalink }}');"></div>
@@ -77,7 +88,8 @@
                     <div class="w-full thumbnail_card nozoom" style="background-image:url('{{ .RelPermalink }}');"></div>
                     {{ end }}
                 {{ end }}
-                {{- else -}}
+                {{- end -}}{{- end -}}
+                {{- if not (or $featured $featuredURL) -}}
                 {{- with $.Site.Params.images }}
                 <meta property="og:image" content="{{ index . 0 | absURL }}" />{{ end -}}
                 {{- end -}}
