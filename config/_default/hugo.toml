@@ -6,6 +6,9 @@ theme = "blowfish"
 baseURL = "https://hanifnaoh.com/"
 defaultContentLanguage = "en"
 
+# Extend timeout for complex pages (5 minutes = 300 seconds)
+timeout = "300s"
+
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
