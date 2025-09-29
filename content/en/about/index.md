@@ -51,16 +51,20 @@ If you want to get in touch, you can reach me via Discord or email. I'm always o
 
 ### Experience
 
-#### Game Designer at [Redacted Interactive by DAL](https://store.steampowered.com/app/3334600/Echoes_Beneath/) (2024 - 2025)
+#### Game Designer at [Redacted Interactive](https://store.steampowered.com/app/3334600/Echoes_Beneath/) (2024 - 2025)
 
 Horror Game – Gameplay & Level Designer
+
 - I design immersive gameplay systems and atmospheric levels that enhance tension and player engagement. My focus is on puzzle mechanics, pacing, and environmental storytelling to create memorable horror experiences.
 
 Unreleased Game – Lead Game Designer & Project Manager
+
 - As the team lead, I oversee the creative direction and design vision while managing the project’s roadmap and development process. I coordinate multidisciplinary teams, align design goals with production milestones, and ensure cohesive execution from concept to implementation.
 
 Internal Game Analyst
+
 - Conduct in-depth monthly analysis of selected games, evaluating performance metrics and market positioning. Present insights to the team and key stakeholders, supporting informed decision-making on design and strategy.
 
 Internal Game Deconstruct
+
 - Deconstruct games through structured play sessions and critical analysis to identify core mechanics, pacing, and design patterns. Break down gameplay systems, player experience, and engagement loops to extract actionable insights. Provide detailed documentation and presentations that inform internal design discussions and inspire new concepts.
