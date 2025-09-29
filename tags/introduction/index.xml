@@ -2,9 +2,8 @@
 &lt;h2 class="relative group"&gt;Introduction
 &lt;div id="introduction" class="anchor"&gt;&lt;/div&gt;
 &lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#introduction" aria-label="Anchor"&gt;#&lt;/a&gt;
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#introduction" aria-label="Anchor"&gt;#&lt;/a&gt;
 &lt;/span&gt;
 &lt;/h2&gt;
 &lt;p&gt;Hello there! 👋 I&amp;rsquo;m Hanif, a passionate college student hailing from Indonesia. Currently pursuing a degree major in Computer Science and I have a minor in Game Application Development, I find myself lost in the fascinating world of Game Development.&lt;/p&gt;</description></item></channel></rss>

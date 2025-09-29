@@ -2,9 +2,8 @@
 &lt;h2 class="relative group"&gt;Architecture at a Glance
 &lt;div id="architecture-at-a-glance" class="anchor"&gt;&lt;/div&gt;
 &lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#architecture-at-a-glance" aria-label="Anchor"&gt;#&lt;/a&gt;
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#architecture-at-a-glance" aria-label="Anchor"&gt;#&lt;/a&gt;
 &lt;/span&gt;
 &lt;/h2&gt;
 &lt;div class="mermaid" align="center"&gt;
@@ -30,21 +29,24 @@ github:R --&gt; L:cloudflare
 &lt;h2 class="relative group"&gt;GitHub Actions Workflow
 &lt;div id="github-actions-workflow" class="anchor"&gt;&lt;/div&gt;
 &lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#github-actions-workflow" aria-label="Anchor"&gt;#&lt;/a&gt;
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#github-actions-workflow" aria-label="Anchor"&gt;#&lt;/a&gt;
 &lt;/span&gt;
 &lt;/h2&gt;
 &lt;p&gt;
 &lt;figure&gt;
 &lt;img
-class="my-0 rounded-md" loading="lazy" decoding="async" fetchpriority="low" alt="My Hugo blog screenshot"
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="My Hugo blog screenshot"
 srcset="
 /posts/blogportfolio-cloudflare-github-actions/hugoblog_hu_fefdd44ebc2d7d68.png 330w,
 /posts/blogportfolio-cloudflare-github-actions/hugoblog_hu_e8fe631eef437605.png 660w,
-/posts/blogportfolio-cloudflare-github-actions/hugoblog_hu_17912c3a2dc624fa.png 1280w"
+/posts/blogportfolio-cloudflare-github-actions/hugoblog_hu_17912c3a2dc624fa.png 1280w
+"
 data-zoom-src="https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/hugoblog.png"
-src="https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/hugoblog.png"
-/&gt;
+src="https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/hugoblog.png"&gt;
 &lt;/figure&gt;
 So since I use static site generator with full control over the HTML, CSS, and JavaScript, even the content management service is handled by hugo with Makrdown language and a flexible shortcode by Blowfish Theme. I can use GitHub Actions to automate the build and deployment process.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/featured.png"/></item></channel></rss>

@@ -2,37 +2,38 @@
 &lt;h2 class="relative group"&gt;Features
 &lt;div id="features" class="anchor"&gt;&lt;/div&gt;
 &lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#features" aria-label="Anchor"&gt;#&lt;/a&gt;
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#features" aria-label="Anchor"&gt;#&lt;/a&gt;
 &lt;/span&gt;
 &lt;/h2&gt;
 &lt;h3 class="relative group"&gt;Godot
 &lt;div id="godot" class="anchor"&gt;&lt;/div&gt;
 &lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#godot" aria-label="Anchor"&gt;#&lt;/a&gt;
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#godot" aria-label="Anchor"&gt;#&lt;/a&gt;
 &lt;/span&gt;
 &lt;/h3&gt;
 &lt;p&gt;
 &lt;figure&gt;
 &lt;img
-class="my-0 rounded-md" loading="lazy" decoding="async" fetchpriority="low" alt="godot"
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="godot"
 srcset="
 /posts/godot-vs-unity-unreal/godot_hu_9108ed7a1c86235a.png 330w,
 /posts/godot-vs-unity-unreal/godot_hu_306af4e69f5a17e5.png 660w,
-/posts/godot-vs-unity-unreal/godot_hu_ec79f0964b60e1bc.png 1280w"
+/posts/godot-vs-unity-unreal/godot_hu_ec79f0964b60e1bc.png 1280w
+"
 data-zoom-src="https://hanifnaoh.com/posts/godot-vs-unity-unreal/godot.png"
-src="https://hanifnaoh.com/posts/godot-vs-unity-unreal/godot.png"
-/&gt;
+src="https://hanifnaoh.com/posts/godot-vs-unity-unreal/godot.png"&gt;
 &lt;/figure&gt;
 Godot’s node-based scene system and integrated GDScript make it incredibly approachable. You can also script in C#, C++, or VisualScript. Its MIT license means zero royalties or subscriptions.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/posts/godot-vs-unity-unreal/featured.png"/></item><item><title>2D Horror Game vs 3D Horror Game: A Designer's Perspective</title><link>https://hanifnaoh.com/posts/horror-game-2d-vs-3d/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/horror-game-2d-vs-3d/</guid><description>&lt;h2 class="relative group"&gt;Overview
 &lt;div id="overview" class="anchor"&gt;&lt;/div&gt;
 &lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor"&gt;#&lt;/a&gt;
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#overview" aria-label="Anchor"&gt;#&lt;/a&gt;
 &lt;/span&gt;
 &lt;/h2&gt;
 &lt;p&gt;In this post, I&amp;rsquo;ve developed a 2D horror game and a 3D horror game with my colleagues, and I want to share my experiences with both. I&amp;rsquo;ll discuss the unique challenges and advantages we encountered during development, as well as how each approach impacted player engagement and immersion.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://hanifnaoh.com/posts/horror-game-2d-vs-3d/featured.png"/></item></channel></rss>
