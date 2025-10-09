@@ -1,0 +1,11 @@
+/* Custom overrides for header spacing */
+body > div.min-h-\[148px\] {
+  min-height: 48px !important;
+  height: auto !important;
+}
+
+@media (min-width: 768px) {
+  body > div.min-h-\[148px\] {
+    min-height: 48px !important;
+  }
+}
