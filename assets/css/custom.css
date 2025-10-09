@@ -9,3 +9,57 @@ body > div.min-h-\[148px\] {
     min-height: 48px !important;
   }
 }
+
+/* Override body container to allow full-width layout */
+body.flex.flex-col.h-screen {
+  margin: 0;
+  max-width: none;
+  width: 100%;
+  padding-inline: clamp(1rem, 4vw, 2rem);
+  padding-left: clamp(1rem, 4vw, 2rem);
+  padding-right: clamp(1rem, 4vw, 2rem);
+}
+
+/* Make header and footer match the body width and padding */
+.main-menu,
+#site-footer {
+  max-width: none;
+  width: 100%;
+  padding-inline: clamp(1rem, 4vw, 2rem);
+  box-sizing: border-box;
+}
+
+/* Neutralize theme utility that constrains to 7xl for layout wrappers */
+.max-w-7xl {
+  max-width: none !important;
+  margin: 0 !important;
+  padding-inline: 0 !important;
+}
+
+/* Widen and center article/header/footer prose containers */
+.article-content.max-w-prose,
+#single_header.max-w-prose,
+footer.max-w-prose {
+  max-width: 75ch !important; /* wider than default prose */
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-inline: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1024px) {
+  .article-content.max-w-prose,
+  #single_header.max-w-prose,
+  footer.max-w-prose {
+    max-width: 80ch !important;
+  }
+}
+
+/* Keep mobile menu items from being constrained by theme max widths */
+ul.mx-auto.max-w-7xl,
+ul.max-w-7xl {
+  max-width: none !important;
+  margin: 0 !important;
+  padding-inline: 0 !important;
+}
