@@ -3,7 +3,6 @@ title: "Trash Crash"
 date: 2023-12-15
 description: "A game where Bawang is determined to make a difference in a society plagued by waste"
 tags: ["4C UB Finalist", "2D", "Educational"]
-showTableOfContents: false
 ---
 
 {{< figure 
