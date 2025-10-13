@@ -5,6 +5,10 @@ heroStyle: "background"
 showBreadcrumbs: false
 ---
 
-I'm Hanif, a game designer and sometimes programmer passionate about creating interactive experiences.
+I'm Hanif, a Game Designer passionate about creating interactive experiences. Skilled in game mechanics, level design, and collaborative teamwork, with a love for problem-solving and a love for storytelling.
 
-Check out my [projects](/projects) and [blog posts](/posts) to see what I've been working on, here is more detail info at [About Me](/about).
+- has been vibing on **Godot**, **Unity**, and **Unreal Engine**
+- **enjoys experimenting** with new gameplay ideas and mechanics
+- Proudly gathering data analytics w **Posthog** and processing it with **Excel**
+
+Check out my [projects](/projects) and [blog posts](/posts) for more detailed info at [About Me](/about).
