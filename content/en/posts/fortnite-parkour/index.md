@@ -6,6 +6,7 @@ description: "100 Level Parkour Map in Fortnite Creative using UEFN"
 highlight: true
 featureimage: "https://cdn.imgchest.com/files/8aa86e32d252.gif"
 hotlinkFeatureImage: true
+tags: ["Fortnite", "UEFN", "Verse", "Level Design", "Game Programming", "Parkour"]
 ---
 
 {{< youtubeLite id="BHjhit9cGjE" >}}
@@ -20,6 +21,10 @@ hotlinkFeatureImage: true
 - **Project length:** 3 Months
 - **Role:** Level Designer, Game Programmer
 - **Engine and tools:** Unreal Editor for Fortnite (UEFN), Verse programming language, Blender 3D, Figma
+
+{{<button href="https://hanif012.gitbook.io/fortnite-parkour/">}}
+Game Design Docs
+{{</button>}}
 
 ## About
 
@@ -65,4 +70,6 @@ Each level includes checkpoints to save player progress, allowing them to restar
 
 ## Links
 
-[Game Design Docs](https://hanif012.gitbook.io/fortnite-parkour/)
+{{<button href="https://hanif012.gitbook.io/fortnite-parkour/">}}
+Game Design Docs
+{{</button>}}
