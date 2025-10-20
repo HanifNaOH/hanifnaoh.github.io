@@ -1,4 +1,88 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Game Development on Hanif012</title><link>https://hanifnaoh.com/tags/game-development/</link><description>Recent content in Game Development on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2025 HanifNaOH</copyright><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifnaoh.com/tags/game-development/index.xml" rel="self" type="application/rss+xml"/><item><title>Highschool Projects</title><link>https://hanifnaoh.com/projects/highschool-projects/</link><pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/projects/highschool-projects/</guid><description>&lt;h2 class="relative group"&gt;About These Projects
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Game Development on Hanif012</title><link>https://hanifnaoh.com/tags/game-development/</link><description>Recent content in Game Development on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2025 HanifNaOH</copyright><lastBuildDate>Mon, 29 Sep 2025 00:14:48 +0700</lastBuildDate><atom:link href="https://hanifnaoh.com/tags/game-development/index.xml" rel="self" type="application/rss+xml"/><item><title>Fish Tank</title><link>https://hanifnaoh.com/posts/fish-tank/</link><pubDate>Mon, 29 Sep 2025 00:14:48 +0700</pubDate><guid>https://hanifnaoh.com/posts/fish-tank/</guid><description>&lt;lite-youtube videoid="CCaJ8ECbfKY" playlabel="CCaJ8ECbfKY" params=""&gt;&lt;/lite-youtube&gt;
+&lt;h2 class="relative group"&gt;Summary
+&lt;div id="summary" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#summary" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Release:&lt;/strong&gt; Released(Playstore Soon)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Studio:&lt;/strong&gt; Periodic Canvas&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Platforms:&lt;/strong&gt; Desktop and Mobile&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Idle Tycoon, Collection&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Team size:&lt;/strong&gt; 5 (1 Programmer, 1 Game Designer, 3 Artists)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project length:&lt;/strong&gt; 10 Days&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Role:&lt;/strong&gt; Technical Lead, Game Designer&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Engine and tools:&lt;/strong&gt; Godot, Figma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 class="relative group"&gt;About
+&lt;div id="about" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#about" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h2 class="relative group"&gt;Responsibilities
+&lt;div id="responsibilities" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#responsibilities" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;div id="gallery-2cb92d6a10840755107e15cab7d56a22" class="gallery"&gt;
+&lt;img src="https://hanifnaoh.com/5c97af27d9a6_5353028769291786732.png" class="grid-w33" /&gt;
+&lt;img src="https://hanifnaoh.com/6d6b18b693cf_12556275746315166415.png" class="grid-w33" /&gt;
+&lt;img src="https://hanifnaoh.com/12d29ea8f288_5075496097898444426.png" class="grid-w33" /&gt;
+&lt;/div&gt;
+&lt;h2 class="relative group"&gt;Core Loop
+&lt;div id="core-loop" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#core-loop" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h2 class="relative group"&gt;Gameplay
+&lt;div id="gameplay" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#gameplay" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h3 class="relative group"&gt;Mechanic
+&lt;div id="mechanic" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#mechanic" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;h3 class="relative group"&gt;Mechanic 2
+&lt;div id="mechanic-2" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#mechanic-2" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;h3 class="relative group"&gt;Mechanic 3
+&lt;div id="mechanic-3" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#mechanic-3" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;h2 class="relative group"&gt;Links
+&lt;div id="links" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#links" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;a
+class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+href="https://hanif012.itch.io/auntie-megas-fish"
+role="button"&gt;
+Itch.io
+&lt;/a&gt;</description></item><item><title>Highschool Projects</title><link>https://hanifnaoh.com/projects/highschool-projects/</link><pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/projects/highschool-projects/</guid><description>&lt;h2 class="relative group"&gt;About These Projects
 &lt;div id="about-these-projects" class="anchor"&gt;&lt;/div&gt;
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
