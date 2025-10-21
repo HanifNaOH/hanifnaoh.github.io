@@ -47,7 +47,7 @@ Auntie Mega's Fish Tank is an idle tycoon collection game where players manage t
 **Technical Lead** - Oversaw the technical implementation of game features, optimized performance for both desktop and mobile platforms, and ensured smooth gameplay across devices.
 
 Check out the [Documentation](https://hanif012.gitbook.io/am-mega-fish-tank) for more details.
-s
+
 ## Core Loop
 
 1. **Catch Fish**: Players use various tools and strategies to catch different species of fish, each with unique attributes and values.
