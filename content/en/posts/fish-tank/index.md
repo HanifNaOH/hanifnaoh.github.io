@@ -41,10 +41,12 @@ Auntie Mega's Fish Tank is an idle tycoon collection game where players manage t
   <img src="https://cdn.imgchest.com/files/6859d2291122.png" class="grid-w50" />
   <img src="https://cdn.imgchest.com/files/499f367d97a2.png" class="grid-w50" />
   <img src="https://cdn.imgchest.com/files/a6671b3fa12a.png" class="grid-w50" />
+  <img src="https://cdn.imgchest.com/files/f7c73e8d8c03.png" class="grid-w50" />
 {{< /gallery >}}
 
 **Game Design** - Created the core gameplay loop, progression systems, and balancing mechanics to ensure an engaging idle tycoon experience.
-**Technical Lead** - Oversaw the technical implementation of game features, optimized performance for both desktop and mobile platforms, and ensured smooth gameplay across devices.
+
+**Technical Lead** - Oversaw the technical implementation of game features, optimized performance for both desktop and mobile platforms, and ensured smooth gameplay across devices. Im also gathered user data to improve the game experience since the gameplay is very experimental.
 
 Check out the [Documentation](https://hanif012.gitbook.io/am-mega-fish-tank) for more details.
 
