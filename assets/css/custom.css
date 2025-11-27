@@ -118,3 +118,12 @@ ul.max-w-7xl {
 #main-content > div > section.w-full.grid {
   justify-content: center;
 }
+
+/* Limit tall inline PNG screenshots without affecting gallery grids */
+.post-img-limited {
+  max-height: 320px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto 1.5rem;
+}
