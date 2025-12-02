@@ -5,7 +5,7 @@ heroStyle: "background"
 showBreadcrumbs: false
 ---
 
-I'm Hanif, a Game Designer passionate about creating interactive experiences. Skilled in game mechanics, level design, and collaborative teamwork, with a love for problem-solving and a love for storytelling.
+I'm Hanif, a Game Developer passionate about creating interactive experiences. Skilled in game mechanics, level design, and collaborative teamwork, with a love for problem-solving and a love for storytelling.
 
 - has been vibing on **Godot**, **Unity**, and **Unreal Engine**
 - **enjoys experimenting** with new gameplay ideas and mechanics
