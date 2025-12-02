@@ -5,6 +5,7 @@ draft: false
 highlight: true
 description: "A 3D idle racing game developed with Unity"
 featureimage: "https://cdn.imgchest.com/files/6649da51bc8b.png"
+tags: ["Idle Racing", "Unity", "Game Design", "3D"]
 ---
 
 {{< youtubeLite id="IynhBR2BuIU" >}}
