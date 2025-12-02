@@ -5,6 +5,7 @@ draft: false
 tags: ["Game Design", "Game Development", "Deck Building", "Strategy Game"]
 highlight: true
 description: "A colony management deck-building strategy game set on an Planet of Mei."
+featureimage: "https://cdn.imgchest.com/files/1a6e6591b049.gif"
 ---
 
 {{< youtubeLite id="c0bPeDYubXc" >}}
