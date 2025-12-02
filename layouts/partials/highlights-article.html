@@ -1,4 +1,4 @@
-{{ $highlightArticles := 3 }}
+{{ $highlightArticles := 4 }}
 {{ $showMoreLinkDest := "/posts/" }}
 {{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
 {{ if index .Site.Params.homepage "showHighlightItems" }}
@@ -19,19 +19,25 @@
 
 <!-- Get pages marked as highlights -->
 {{ range .Site.RegularPages }}
-    {{ if .Params.highlight | default false }}
-        {{ $highlightedPages = $highlightedPages | append . }}
-    {{ end }}
+  {{ if .Params.highlight | default false }}
+    {{ $highlightedPages = $highlightedPages | append . }}
+  {{ end }}
+{{ end }}
+
+{{ if gt (len $highlightedPages) 0 }}
+  {{ $highlightedPages = sort $highlightedPages "Date" "desc" }}
 {{ end }}
 
 <!-- If no specific highlighted pages, get recent featured pages -->
 {{ if eq (len $highlightedPages) 0 }}
-    {{ $highlightedPages = first $highlightArticles (where .Site.RegularPages "Params.featured" true) }}
+  {{ $featuredPages := sort (where .Site.RegularPages "Params.featured" true) "Date" "desc" }}
+  {{ $highlightedPages = first $highlightArticles $featuredPages }}
 {{ end }}
 
 <!-- If still no pages, get most recent pages -->
 {{ if eq (len $highlightedPages) 0 }}
-    {{ $highlightedPages = first $highlightArticles (.Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections)).Pages }}
+  {{ $recentPages := sort (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) "Date" "desc" }}
+  {{ $highlightedPages = first $highlightArticles $recentPages }}
 {{ end }}
 
 {{ if .Site.Params.homepage.highlightCardView | default true }}

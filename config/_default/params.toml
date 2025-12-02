@@ -40,6 +40,7 @@ layout = "custom" # valid options: background, cards, list
 homepageImage = "img/cube.jpg"
 showRecent = true
 showRecentItems = 6
+showHighlightItems = 4
 showMoreLink = true
 showMoreLinkDest = "/posts"
 cardView = true
