@@ -37,6 +37,11 @@ body.flex.flex-col.h-screen {
   padding-right: clamp(1rem, 4vw, 2rem);
 }
 
+/* Keep invisible background blur overlay from intercepting touch scroll */
+#background-blur {
+  pointer-events: none;
+}
+
 /* Make header and footer match the body width and padding */
 .main-menu,
 #site-footer {
