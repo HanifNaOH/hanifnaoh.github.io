@@ -35,11 +35,24 @@ body.flex.flex-col.h-screen {
   padding-inline: clamp(1rem, 4vw, 2rem);
   padding-left: clamp(1rem, 4vw, 2rem);
   padding-right: clamp(1rem, 4vw, 2rem);
+  min-height: 100vh;
+  height: auto;
 }
 
 /* Keep invisible background blur overlay from intercepting touch scroll */
 #background-blur {
   pointer-events: none;
+}
+
+/* Make full-height sections respect browsers with dynamic bottom toolbars (e.g., Edge) */
+@supports (height: 100dvh) {
+  body.flex.flex-col.h-screen {
+    min-height: 100dvh;
+  }
+
+  :where(.min-h-screen) {
+    min-height: 100dvh !important;
+  }
 }
 
 /* Make header and footer match the body width and padding */
