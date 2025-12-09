@@ -1,0 +1,96 @@
+{{- $before := .Get "before" -}}
+{{- $after := .Get "after" -}}
+{{- if not (and $before $after) -}}
+  {{- errorf "beforeAfter shortcode requires both 'before' and 'after' parameters" -}}
+{{- end -}}
+
+{{- $beforeAlt := .Get "beforeAlt" | default (.Get "beforeLabel") | default "Before" -}}
+{{- $afterAlt := .Get "afterAlt" | default (.Get "afterLabel") | default "After" -}}
+{{- $beforeLabel := .Get "beforeLabel" | default "Before" -}}
+{{- $afterLabel := .Get "afterLabel" | default "After" -}}
+{{- $caption := .Get "caption" -}}
+{{- $start := .Get "start" | default 50 -}}
+{{- $height := .Get "height" -}}
+{{- $fit := .Get "fit" | default "cover" -}}
+{{- $ariaLabel := .Get "ariaLabel" | default (printf "Drag to compare %s and %s" $beforeLabel $afterLabel) -}}
+{{- $uid := printf "before-after-%d" now.UnixNano -}}
+
+{{- $beforeSrc := $before -}}
+{{- if or (strings.HasPrefix $beforeSrc "http://") (strings.HasPrefix $beforeSrc "https://") -}}
+  {{- $beforeSrc = $beforeSrc -}}
+{{- else if strings.HasPrefix $beforeSrc "/" -}}
+  {{- $beforeSrc = relURL $beforeSrc -}}
+{{- else -}}
+  {{- with $.Page.Resources.GetMatch $beforeSrc -}}
+    {{- $beforeSrc = .RelPermalink -}}
+  {{- else -}}
+    {{- with resources.Get $beforeSrc -}}
+      {{- $beforeSrc = .RelPermalink -}}
+    {{- else -}}
+      {{- $beforeSrc = relURL $beforeSrc -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $afterSrc := $after -}}
+{{- if or (strings.HasPrefix $afterSrc "http://") (strings.HasPrefix $afterSrc "https://") -}}
+  {{- $afterSrc = $afterSrc -}}
+{{- else if strings.HasPrefix $afterSrc "/" -}}
+  {{- $afterSrc = relURL $afterSrc -}}
+{{- else -}}
+  {{- with $.Page.Resources.GetMatch $afterSrc -}}
+    {{- $afterSrc = .RelPermalink -}}
+  {{- else -}}
+    {{- with resources.Get $afterSrc -}}
+      {{- $afterSrc = .RelPermalink -}}
+    {{- else -}}
+      {{- $afterSrc = relURL $afterSrc -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+<figure id="{{ $uid }}" class="before-after" style="--ba-position: {{ $start }}%;{{ with $height }} --ba-height: {{ . }};{{ end }} --ba-fit: {{ $fit }};">
+  <div class="before-after__stage">
+    <div class="before-after__image before-after__image--after">
+      <img src="{{ $afterSrc }}" alt="{{ $afterAlt }}" loading="lazy" decoding="async">
+      <span class="before-after__badge before-after__badge--after">{{ $afterLabel }}</span>
+    </div>
+    <div class="before-after__image before-after__image--before">
+      <img src="{{ $beforeSrc }}" alt="{{ $beforeAlt }}" loading="lazy" decoding="async">
+      <span class="before-after__badge before-after__badge--before">{{ $beforeLabel }}</span>
+    </div>
+    <div class="before-after__handle" aria-hidden="true">
+      <span class="before-after__handle-knob"></span>
+    </div>
+    <input type="range" class="before-after__slider" min="0" max="100" step="1" value="{{ $start }}" aria-label="{{ $ariaLabel }}">
+  </div>
+  {{- with $caption -}}
+    <figcaption class="before-after__caption">{{ . | markdownify }}</figcaption>
+  {{- end -}}
+</figure>
+<script>
+(() => {
+  const root = document.getElementById("{{ $uid }}");
+  if (!root) {
+    return;
+  }
+  const slider = root.querySelector('.before-after__slider');
+  const setPos = (value) => {
+    const clamped = Math.min(100, Math.max(0, Number(value)));
+    root.style.setProperty('--ba-position', clamped + '%');
+  };
+  if (slider) {
+    setPos(slider.value || {{ $start }});
+    let frame = null;
+    slider.addEventListener('input', () => {
+      if (frame) {
+        return;
+      }
+      frame = requestAnimationFrame(() => {
+        setPos(slider.value || {{ $start }});
+        frame = null;
+      });
+    });
+  }
+})();
+</script>

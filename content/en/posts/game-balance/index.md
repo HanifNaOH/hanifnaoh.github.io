@@ -16,6 +16,20 @@ This is my thoughts and research about game balance in game development, it's a 
 Thanks for [Mr Dodick](https://id.linkedin.com/in/dodick)and [Ian Schreiber](https://www.linkedin.com/in/ian-schreiber-733bab/) for their great articles about game balance that i often refer to.
 
 {{< youtubeLite id="tR-9oXiytsk" label="Balance Talk" params="rel=0" >}}
+<!-- 
+## Balance Iteration Snapshot
+
+Here is a quick visual of how an encounter mockup evolved during tuning:
+
+{{< beforeAfter
+ before="img/cube.jpg"
+ after="img/portrait.png"
+ beforeLabel="Pre-Iteration"
+ afterLabel="Post-Iteration"
+ caption="Drag the handle to compare the early blockout versus the polished pass."
+ height="360px"
+ start="55"
+>}} -->
 
 ## Vocabulary
 

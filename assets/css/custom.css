@@ -55,6 +55,127 @@ body.flex.flex-col.h-screen {
   }
 }
 
+/* Before/after comparison slider */
+.before-after {
+  --ba-position: 50%;
+  --ba-height: auto;
+  position: relative;
+  display: block;
+  margin: clamp(1rem, 4vw, 2rem) auto;
+  border-radius: 1.25rem;
+  background: rgba(15, 23, 42, 0.05);
+  overflow: hidden;
+}
+
+.dark .before-after {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.before-after__stage {
+  position: relative;
+  width: 100%;
+  min-height: 220px;
+  height: var(--ba-height, auto);
+  border-radius: inherit;
+  overflow: hidden;
+}
+
+.before-after__image {
+  position: relative;
+}
+
+.before-after__image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: var(--ba-fit, cover);
+  object-position: center;
+  background-color: #0f172a;
+}
+
+.before-after__image--before {
+  position: absolute;
+  inset: 0;
+  clip-path: inset(0 calc(100% - var(--ba-position, 50%)) 0 0);
+  transition: clip-path 120ms ease-out;
+}
+
+.before-after__handle {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  border-left: 2px solid rgba(255, 255, 255, 0.9);
+  mix-blend-mode: difference;
+  left: var(--ba-position, 50%);
+  transform: translateX(-1px);
+}
+
+.before-after__handle-knob {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 2.25rem;
+  height: 2.25rem;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.before-after__slider {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: ew-resize;
+}
+
+.before-after__badge {
+  position: absolute;
+  top: 1rem;
+  padding: 0.25rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  background: rgba(15, 23, 42, 0.75);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.dark .before-after__badge {
+  background: rgba(248, 250, 252, 0.7);
+  color: #0b1120;
+}
+
+.before-after__badge--before {
+  left: 1rem;
+}
+
+.before-after__badge--after {
+  right: 1rem;
+}
+
+.before-after__caption {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  text-align: center;
+  color: inherit;
+}
+
+@media (max-width: 640px) {
+  .before-after__handle-knob {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+
+  .before-after__badge {
+    font-size: 0.75rem;
+  }
+}
+
 /* Make header and footer match the body width and padding */
 .main-menu,
 #site-footer {
