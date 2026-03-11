@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>C++ on Hanif012</title><link>https://hanifnaoh.com/tags/c++/</link><description>Recent content in C++ on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2026 HanifNaOH</copyright><lastBuildDate>Tue, 10 Mar 2026 13:35:41 +0700</lastBuildDate><atom:link href="https://hanifnaoh.com/tags/c++/index.xml" rel="self" type="application/rss+xml"/><item><title>Rhythm-Based Target Shooter</title><link>https://hanifnaoh.com/posts/rhytm-game-ue/</link><pubDate>Tue, 10 Mar 2026 13:35:41 +0700</pubDate><guid>https://hanifnaoh.com/posts/rhytm-game-ue/</guid><description>&lt;h2 class="relative group"&gt;Overview
+&lt;div id="overview" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#overview" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;A unique rhythm-based shooting game developed in Unreal Engine that challenges players to shoot targets in sync with music. The game reads MIDI files to generate gameplay patterns, creating a dynamic shooting experience where precision and rhythm awareness are equally important.&lt;/p&gt;</description></item></channel></rss>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cloudflare on Hanif012</title><link>https://hanifnaoh.com/tags/cloudflare/</link><description>Recent content in Cloudflare on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2025 HanifNaOH</copyright><lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifnaoh.com/tags/cloudflare/index.xml" rel="self" type="application/rss+xml"/><item><title>Maintaining Blog Portfolio with Cloudflare and GitHub Actions</title><link>https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/</link><pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/</guid><description>&lt;p&gt;In this post I’ll walk through how my Hugo-based blog, powered by the Blowfish theme, is automatically built and deployed to Cloudflare Pages every time I push to &lt;code&gt;main&lt;/code&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cloudflare on Hanif012</title><link>https://hanifnaoh.com/tags/cloudflare/</link><description>Recent content in Cloudflare on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2026 HanifNaOH</copyright><lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifnaoh.com/tags/cloudflare/index.xml" rel="self" type="application/rss+xml"/><item><title>Maintaining Blog Portfolio with Cloudflare and GitHub Actions</title><link>https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/</link><pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/</guid><description>&lt;p&gt;In this post I’ll walk through how my Hugo-based blog, powered by the Blowfish theme, is automatically built and deployed to Cloudflare Pages every time I push to &lt;code&gt;main&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 class="relative group"&gt;Architecture at a Glance
 &lt;div id="architecture-at-a-glance" class="anchor"&gt;&lt;/div&gt;
 &lt;span
@@ -42,9 +42,9 @@ decoding="async"
 fetchpriority="low"
 alt="My Hugo blog screenshot"
 srcset="
-/posts/blogportfolio-cloudflare-github-actions/hugoblog_hu_fefdd44ebc2d7d68.png 330w,
-/posts/blogportfolio-cloudflare-github-actions/hugoblog_hu_e8fe631eef437605.png 660w,
-/posts/blogportfolio-cloudflare-github-actions/hugoblog_hu_17912c3a2dc624fa.png 1280w
+/posts/blogportfolio-cloudflare-github-actions/hugoblog_hu_df677613bad2971a.png 330w,
+/posts/blogportfolio-cloudflare-github-actions/hugoblog_hu_dee99e78c6ef780d.png 660w,
+/posts/blogportfolio-cloudflare-github-actions/hugoblog_hu_aca35101a55bef6a.png 1280w
 "
 data-zoom-src="https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/hugoblog.png"
 src="https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/hugoblog.png"&gt;

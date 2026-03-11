@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Game Engines on Hanif012</title><link>https://hanifnaoh.com/tags/game-engines/</link><description>Recent content in Game Engines on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2025 HanifNaOH</copyright><lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifnaoh.com/tags/game-engines/index.xml" rel="self" type="application/rss+xml"/><item><title>Godot vs Unity vs Unreal: A Technical Designer's Analysis</title><link>https://hanifnaoh.com/posts/godot-vs-unity-unreal/</link><pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/godot-vs-unity-unreal/</guid><description>&lt;p&gt;In this post, I compare Godot, Unity, and Unreal Engine across features, performance, and community support to help you choose the right engine for your next project.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Game Engines on Hanif012</title><link>https://hanifnaoh.com/tags/game-engines/</link><description>Recent content in Game Engines on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2026 HanifNaOH</copyright><lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://hanifnaoh.com/tags/game-engines/index.xml" rel="self" type="application/rss+xml"/><item><title>Godot vs Unity vs Unreal: A Technical Designer's Analysis</title><link>https://hanifnaoh.com/posts/godot-vs-unity-unreal/</link><pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate><guid>https://hanifnaoh.com/posts/godot-vs-unity-unreal/</guid><description>&lt;p&gt;In this post, I compare Godot, Unity, and Unreal Engine across features, performance, and community support to help you choose the right engine for your next project.&lt;/p&gt;
 &lt;h2 class="relative group"&gt;Features
 &lt;div id="features" class="anchor"&gt;&lt;/div&gt;
 &lt;span
@@ -22,9 +22,9 @@ decoding="async"
 fetchpriority="low"
 alt="godot"
 srcset="
-/posts/godot-vs-unity-unreal/godot_hu_9108ed7a1c86235a.png 330w,
-/posts/godot-vs-unity-unreal/godot_hu_306af4e69f5a17e5.png 660w,
-/posts/godot-vs-unity-unreal/godot_hu_ec79f0964b60e1bc.png 1280w
+/posts/godot-vs-unity-unreal/godot_hu_6372000b803eec58.png 330w,
+/posts/godot-vs-unity-unreal/godot_hu_7d18b9101e16faea.png 660w,
+/posts/godot-vs-unity-unreal/godot_hu_efff364936178062.png 1280w
 "
 data-zoom-src="https://hanifnaoh.com/posts/godot-vs-unity-unreal/godot.png"
 src="https://hanifnaoh.com/posts/godot-vs-unity-unreal/godot.png"&gt;

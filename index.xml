@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fathi Naufal Hanif on Hanif012</title><link>https://hanifnaoh.com/</link><description>Recent content in Fathi Naufal Hanif on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2025 HanifNaOH</copyright><lastBuildDate>Tue, 09 Dec 2025 00:24:14 +0700</lastBuildDate><atom:link href="https://hanifnaoh.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Game Balance Vocab 2025</title><link>https://hanifnaoh.com/posts/game-balance/</link><pubDate>Tue, 09 Dec 2025 00:24:14 +0700</pubDate><guid>https://hanifnaoh.com/posts/game-balance/</guid><description>&lt;h2 class="relative group"&gt;Introduction
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fathi Naufal Hanif on Hanif012</title><link>https://hanifnaoh.com/</link><description>Recent content in Fathi Naufal Hanif on Hanif012</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2026 HanifNaOH</copyright><lastBuildDate>Tue, 10 Mar 2026 13:35:41 +0700</lastBuildDate><atom:link href="https://hanifnaoh.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Rhythm-Based Target Shooter</title><link>https://hanifnaoh.com/posts/rhytm-game-ue/</link><pubDate>Tue, 10 Mar 2026 13:35:41 +0700</pubDate><guid>https://hanifnaoh.com/posts/rhytm-game-ue/</guid><description>&lt;h2 class="relative group"&gt;Overview
+&lt;div id="overview" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#overview" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;A unique rhythm-based shooting game developed in Unreal Engine that challenges players to shoot targets in sync with music. The game reads MIDI files to generate gameplay patterns, creating a dynamic shooting experience where precision and rhythm awareness are equally important.&lt;/p&gt;</description></item><item><title>Game Balance Vocab 2025</title><link>https://hanifnaoh.com/posts/game-balance/</link><pubDate>Tue, 09 Dec 2025 00:24:14 +0700</pubDate><guid>https://hanifnaoh.com/posts/game-balance/</guid><description>&lt;h2 class="relative group"&gt;Introduction
 &lt;div id="introduction" class="anchor"&gt;&lt;/div&gt;
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
@@ -231,9 +238,9 @@ decoding="async"
 fetchpriority="low"
 alt="godot"
 srcset="
-/posts/godot-vs-unity-unreal/godot_hu_9108ed7a1c86235a.png 330w,
-/posts/godot-vs-unity-unreal/godot_hu_306af4e69f5a17e5.png 660w,
-/posts/godot-vs-unity-unreal/godot_hu_ec79f0964b60e1bc.png 1280w
+/posts/godot-vs-unity-unreal/godot_hu_6372000b803eec58.png 330w,
+/posts/godot-vs-unity-unreal/godot_hu_7d18b9101e16faea.png 660w,
+/posts/godot-vs-unity-unreal/godot_hu_efff364936178062.png 1280w
 "
 data-zoom-src="https://hanifnaoh.com/posts/godot-vs-unity-unreal/godot.png"
 src="https://hanifnaoh.com/posts/godot-vs-unity-unreal/godot.png"&gt;
@@ -303,9 +310,9 @@ decoding="async"
 fetchpriority="low"
 alt="My Hugo blog screenshot"
 srcset="
-/posts/blogportfolio-cloudflare-github-actions/hugoblog_hu_fefdd44ebc2d7d68.png 330w,
-/posts/blogportfolio-cloudflare-github-actions/hugoblog_hu_e8fe631eef437605.png 660w,
-/posts/blogportfolio-cloudflare-github-actions/hugoblog_hu_17912c3a2dc624fa.png 1280w
+/posts/blogportfolio-cloudflare-github-actions/hugoblog_hu_df677613bad2971a.png 330w,
+/posts/blogportfolio-cloudflare-github-actions/hugoblog_hu_dee99e78c6ef780d.png 660w,
+/posts/blogportfolio-cloudflare-github-actions/hugoblog_hu_aca35101a55bef6a.png 1280w
 "
 data-zoom-src="https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/hugoblog.png"
 src="https://hanifnaoh.com/posts/blogportfolio-cloudflare-github-actions/hugoblog.png"&gt;
@@ -319,9 +326,9 @@ decoding="async"
 fetchpriority="low"
 alt="UEFN"
 srcset="
-/posts/uefn-parkour-maps-limitations/image-frot_hu_68454c566f37e394.png 330w,
-/posts/uefn-parkour-maps-limitations/image-frot_hu_ea46941e30d1a36e.png 660w,
-/posts/uefn-parkour-maps-limitations/image-frot_hu_209797e1f8fda4f1.png 1280w
+/posts/uefn-parkour-maps-limitations/image-frot_hu_98544d995b713fc7.png 330w,
+/posts/uefn-parkour-maps-limitations/image-frot_hu_e1931ecee177841f.png 660w,
+/posts/uefn-parkour-maps-limitations/image-frot_hu_d7e45146b71173df.png 1280w
 "
 data-zoom-src="https://hanifnaoh.com/posts/uefn-parkour-maps-limitations/image-frot.png"
 src="https://hanifnaoh.com/posts/uefn-parkour-maps-limitations/image-frot.png"&gt;
@@ -343,9 +350,9 @@ decoding="async"
 fetchpriority="low"
 alt="Parkour Paradise"
 srcset="
-/posts/uefn-parkour-maps-limitations/ParkourParadise_hu_1f25ec082daff58d.png 330w,
-/posts/uefn-parkour-maps-limitations/ParkourParadise_hu_64dd13acc145e468.png 660w,
-/posts/uefn-parkour-maps-limitations/ParkourParadise_hu_536dc6ee0d54a7b1.png 1280w
+/posts/uefn-parkour-maps-limitations/ParkourParadise_hu_5f3f7e04802e15ca.png 330w,
+/posts/uefn-parkour-maps-limitations/ParkourParadise_hu_45a20945c9c7f5ea.png 660w,
+/posts/uefn-parkour-maps-limitations/ParkourParadise_hu_8e0d33640b0884c0.png 1280w
 "
 data-zoom-src="https://hanifnaoh.com/posts/uefn-parkour-maps-limitations/ParkourParadise.png"
 src="https://hanifnaoh.com/posts/uefn-parkour-maps-limitations/ParkourParadise.png"&gt;
@@ -382,9 +389,9 @@ decoding="async"
 fetchpriority="low"
 alt="Marvel Snap"
 srcset="
-/posts/deconstruct-marvel-snap/_MARVELSNAPLOGO_hu_f4999334b1b9f8e6.png 330w,
-/posts/deconstruct-marvel-snap/_MARVELSNAPLOGO_hu_94d8afd984f61764.png 660w,
-/posts/deconstruct-marvel-snap/_MARVELSNAPLOGO_hu_f9ce2f1a35fa89aa.png 1280w
+/posts/deconstruct-marvel-snap/_MARVELSNAPLOGO_hu_3ead4d05cff6d2f7.png 330w,
+/posts/deconstruct-marvel-snap/_MARVELSNAPLOGO_hu_f39e558a57e9b280.png 660w,
+/posts/deconstruct-marvel-snap/_MARVELSNAPLOGO_hu_93445c9aac7ba2e1.png 1280w
 "
 data-zoom-src="https://hanifnaoh.com/posts/deconstruct-marvel-snap/_MARVELSNAPLOGO.png"
 src="https://hanifnaoh.com/posts/deconstruct-marvel-snap/_MARVELSNAPLOGO.png"&gt;
